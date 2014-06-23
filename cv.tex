@@ -1,0 +1,141 @@
+\documentclass[10pt, a4paper]{article}
+\usepackage{fontspec} 
+\usepackage{fontawesome}
+
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
+\setlength\parindent{0in}
+
+% FONTS
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont [Ligatures={Common}, Numbers={OldStyle}, Variant=01]{Linux Libertine O}
+\setmonofont[Scale=0.8]{Monaco}
+
+% ---- CUSTOM COMMANDS
+\chardef\&="E050
+\newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
+\newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
+\newcommand{\doi}[1]{\href{#1}{\scriptsize\textsc{[doi]}}}
+% ---- MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\amper{}}{\chardef\amper="E0BD }
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\mdseries\upshape\Large}
+\subsectionfont{\mdseries\scshape\normalsize} 
+\subsubsectionfont{\mdseries\upshape\large} 
+
+\def\myauthor{Foat Akhmadeev}
+\def\mytitle{\myauthor - vita}
+\def\myemail{foat.akhmadeev@gmail.com}
+\def\mygithub{github.com/foat}
+\def\mylinkedin{linkedin.com/in/akhmadeevfoat}
+
+\usepackage[bookmarks, colorlinks, breaklinks, 
+	pdftitle={\myauthor - vita},
+	pdfauthor={\myauthor}
+]{hyperref}  
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} 
+
+
+% DOCUMENT
+\begin{document}
+{\LARGE \myauthor}\\[1cm]
+\begin{minipage}[t]{2in}
+\flushleft {Computer vision developer\\
+\textsc{RoadAR}\\}
+\end{minipage}
+\begin{minipage}[t]{4in}
+\flushleft
+\faEnvelopeAlt \, \href{mailto:\myemail}{\myemail}\\
+\faGithub \, \href{https://\mygithub}{\mygithub}\\
+\faLinkedin \, \href{https://\mylinkedin}{\mylinkedin}\\
+\end{minipage}
+
+\section*{Research interests}
+Image processing • Computer vision • Machine learning\\
+Scene understanding • Real-time object recognition
+
+\section*{Professional experience}
+\noindent
+\years{2013-present}{\href{http://roadar.ru}{RoadAR}, \textbf{Computer vision developer}
+\begin{itemize}
+\item{Research in the field of computer vision.}
+\item{Real-time traffic sign recognition on mobile phones.}
+\item{C++, Java development.}
+\item{Project: \href{https://play.google.com/store/apps/details?id=ru.roadar.android}{RoadAR}}.
+\end{itemize}
+}
+\years{2013}{\href{http://dz.ru}{Digital Zone}, \textbf{Senior software developer}
+\begin{itemize}
+\item{Project management and code review.}
+\item{Conducting technical interviews.}
+\item{Java frontend and backend development.}
+\item{Project: Ulmart (\href{http://dz.ru/portfolio/clients/ulmart/release_1-0/}{link 1}, \href{http://dz.ru/portfolio/clients/ulmart/release_2-0/}{link 2}}).
+\end{itemize}
+}
+\years{2011-2013}{\href{http://dz.ru}{Digital Zone}, \textbf{Software developer}
+\begin{itemize}
+\item{Java frontend and backend development.}
+\end{itemize}
+}
+
+\section*{Education}
+\noindent
+\years{2012-present}{\textbf{MSc in Computer Science}\\
+\textit{Kazan Federal University}, Russia\\
+\textsc{advisor}: Evgeniy Stolov, Kazan Federal University
+\begin{itemize}
+\item{Project: \textit{3D scene reconstruction from a single view}}.
+\item{Publications: \cite{foat2014prediction}}.
+\end{itemize}
+}
+\years{2008-2012}{\textbf{BSc in Computer Science}\\
+\textit{Kazan Federal University}, Russia\\
+\textsc{advisors}: Evgeniy Stolov, Kazan Federal University; Aleksandr Shlyannikov, Kazan Federal University
+\begin{itemize}
+\item{Projects: \textit{Handwritten digit recognition}, \textit{E-library using GWT}}.
+\end{itemize}
+}
+
+\section*{It \& programming skills}
+Data analysis (Matlab).\\
+Main languages (C++, Java, Scala).\\
+Scripting languages (shell script, JavaScript, PHP).\\
+Markup languages (XML, JSON, HTML, CSS).\\
+Query languages (SQL).\\
+Application and web servers (JBoss, Tomcat, Jetty).\\
+Revision control (Git, Subversion).\\
+Build tools (Maven, Gradle, CMake).\\
+Systems on administration level (OS X, Linux, Windows).\\
+Other (Spring MVC, EJB, GWT, JQuery, MySQL, PostgreSQL).\\
+Digital typesetting (\TeX, \LaTeX).
+
+\section*{Languages}
+\textit{Russian} (native speaker)\\
+\textit{English} (professional working proficiency)
+
+\renewcommand{\refname}{\section*{Publications}\subsection*{Unpublished works}}
+\bibliographystyle{abbrv}
+\bibliography{lib}
+
+\vfill{}
+
+\begin{center}
+{\scriptsize  Last updated: \today\- •\- 
+% ---- PLEASE LEAVE THIS BACKLINK FOR ATTRIBUTION AS PER CC-LICENSE
+Typeset in \href{http://nitens.org/taraborelli/cvtex}{
+\fontspec{Times New Roman}Lua\TeX}\\
+\href{https://github.com/Foat/foat.github.io}{github.com/Foat/foat.github.io}}
+\end{center}
+
+\end{document}
