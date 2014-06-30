@@ -1,35 +1,41 @@
 ## Foat Akhmadeev
 
-### Research interests
+Computer vision developer at RoadAR  
+[E-mail], [Github], [LinkedIn]
+
+### [pdf version](/cv/cv.pdf)
+
+## Research interests
 Image processing • Computer vision • Machine learning  
 Scene understanding • Real-time object recognition
 
-### Professional experience
-* 2013-present. [RoadAR](http://roadar.ru), Computer vision developer
+## Professional experience
+* 2013-present. [RoadAR], Computer vision developer
 	* Research in the field of computer vision.
 	* Real-time traffic sign recognition on mobile phones.
 	* C++, Java development.
-	* Project: [RoadAR](https://play.google.com/store/apps/details?id=ru.roadar.android).
-* 2013. [Digital Zone](http://dz.ru), Senior software developer
+	* Project: [RoadARApp](https://play.google.com/store/apps/details?id=ru.roadar.android).
+* 2013. [Digital Zone], Senior software developer
 	* Project management and code review.
 	* Conducting technical interviews.
 	* Java frontend and backend development.
 	* Project: Ulmart [link 1](http://dz.ru/portfolio/clients/ulmart/release_1-0/), [link 2](http://dz.ru/portfolio/clients/ulmart/release_2-0).
-* 2011-2013. [Digital Zone](http://dz.ru), Software developer
+* 2011-2013. [Digital Zone], Software developer
 	* Java frontend and backend development.
 
-### Education
-* 2012-present. MSc in Computer Science  
+## Education
+* 2012-2014. MSc in Computer Science  
 Kazan Federal University, Russia  
-advisor: Evgeniy Stolov, Kazan Federal University  
+advisor: Evgeny Stolov, Kazan Federal University  
 	* Project: 3D scene reconstruction from a single view.
+	* Publications: [1].
 
 * 2008-2012. BSc in Computer Science  
 Kazan Federal University, Russia  
-advisors: Evgeniy Stolov, Kazan Federal University; Aleksandr Shlyannikov, Kazan Federal University
+advisors: Evgeny Stolov, Kazan Federal University; Aleksandr Shlyannikov, Kazan Federal University
 	* Projects: Handwritten digit recognition, E-library using GWT.
 
-### It & programming skills
+## It & programming skills
 Data analysis (Matlab).  
 Main languages (C++, Java, Scala).  
 Scripting languages (shell script, JavaScript, PHP).  
@@ -42,6 +48,17 @@ Systems on administration level (OS X, Linux, Windows).
 Other (Spring MVC, EJB, GWT, JQuery, MySQL, PostgreSQL).  
 Digital typesetting (TeX, LaTeX).
 
-### Languages
+## Languages
 Russian (native speaker)  
 English (professional working proficiency)
+
+## Publications
+### Unpublished works
+[1]: F. Akhmadeev. 3D scene reconstruction from a single image of urban scenes. 2014.
+
+[E-mail]: mailto:foat.akhmadeev@gmail.com
+[Github]: https://github.com/foat
+[LinkedIn]: https://linkedin.com/in/akhmadeevfoat
+
+[RoadAR]: http://roadar.ru
+[Digital Zone]: http://dz.ru

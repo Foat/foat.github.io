@@ -1,12 +1,7 @@
-# Site settings
-title: Foat Akhmadeev
-email: foat.akhmadeev@gmail.com
-description: "Computer vision (Matlab, C++, Java)"
-baseurl: ""
-url: "https://foat.github.io"
-twitter_username:
-github_username:  foat
+markdown: redcarpet
+highlighter: pygments
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+title_tag_text: Foat Akhmadeev
+h1_tag_text: Foat Akhmadeev
+
+exclude: ["Procfile", "Gruntfile.js", "README.md", "package.json", "node_modules"]
