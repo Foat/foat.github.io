@@ -1,6 +1,6 @@
 ## Foat Akhmadeev
 
-Computer vision developer at RoadAR  
+Computer vision research engineer  
 [E-mail], [Github], [LinkedIn]
 
 ### [pdf version](/cv/cv.pdf)
@@ -10,7 +10,7 @@ Image processing • Computer vision • Machine learning
 Scene understanding • Real-time object recognition
 
 ## Professional experience
-* 2013-present. [RoadAR], Computer vision developer
+* 2013-2014. [RoadAR], Computer vision developer
 	* Research in the field of computer vision.
 	* Real-time traffic sign recognition on mobile phones.
 	* C++, Java development.
@@ -38,7 +38,7 @@ advisors: Evgeny Stolov, Kazan Federal University; Aleksandr Shlyannikov, Kazan 
 ## It & programming skills
 Data analysis (Matlab).  
 Main languages (C++, Java, Scala).  
-Scripting languages (shell script, JavaScript, PHP).  
+Scripting languages (shell script, JavaScript).  
 Markup languages (XML, JSON, HTML, CSS).  
 Query languages (SQL).  
 Application and web servers (JBoss, Tomcat, Jetty).  
@@ -54,7 +54,9 @@ English (professional working proficiency)
 
 ## Publications
 ### Unpublished works
-[1]: F. Akhmadeev. 3D scene reconstruction from a single image of urban scenes. 2014.
+[1]: F. Akhmadeev. Surface Prediction for a Single Image of Urban Scenes. 2014.
+
+<sup>Site theme: [solo]</sub>
 
 [E-mail]: mailto:foat.akhmadeev@gmail.com
 [Github]: https://github.com/foat
@@ -62,3 +64,4 @@ English (professional working proficiency)
 
 [RoadAR]: http://roadar.ru
 [Digital Zone]: http://dz.ru
+[solo]: https://github.com/chibicode/solo
