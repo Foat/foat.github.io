@@ -17,7 +17,7 @@ date: 2014-11-23T18:01:03+03:00
 Computer vision research engineer  
 [E-mail], [Github], [LinkedIn]
 
-### [pdf version](/cv/cv.pdf)
+### [pdf version](/cv.pdf)
 
 ## Research interests
 Image processing • Computer vision • Machine learning  
