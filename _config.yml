@@ -1,7 +1,35 @@
-markdown: redcarpet
+# Site wide configuration
+
+title: Foat Akhmadeev
+description: "Computer vision, Image processing and Matlab"
+logo: # 120x120 px default image used for Twitter summary card
+teaser: teaser.gif
+locale: logo.gif
+url: http://localhost:4000
+
+# Jekyll configuration
+
+sass:
+    sass_dir: _sass
+    style: compressed
+permalink: /:categories/:title/
+markdown: kramdown
 highlighter: pygments
+gems:
+  - jekyll-sitemap
 
-title_tag_text: Foat Akhmadeev
-h1_tag_text: Foat Akhmadeev
 
-exclude: ["Procfile", "Gruntfile.js", "README.md", "package.json", "node_modules"]
+# Site owner
+owner:
+  name: Foat Akhmadeev
+  email: foat.akhmadeev@gmail.com
+  twitter:
+  google:
+    ad-client: 
+    ad-slot: 
+  bio: 
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+disqus-shortname:
+
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

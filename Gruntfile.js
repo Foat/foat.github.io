@@ -1,25 +1,95 @@
+'use strict';
 module.exports = function(grunt) {
+
   grunt.initConfig({
-    watch: {
-      files: ['README.md'],
-      tasks: ['build']
+    pkg: grunt.file.readJSON('package.json'),
+    jshint: {
+      options: {
+        jshintrc: '.jshintrc'
+      },
+      all: [
+        'Gruntfile.js',
+        'js/*.js',
+        '!js/main.js'
+      ]
     },
-    copy: {
-      main: {
-        src: "README.md",
-        dest: "_includes/index.md",
+    watch: {
+      js: {
+        files: [
+          '<%= jshint.all %>'
+        ],
+        tasks: ['jshint', 'uglify'],
         options: {
-          process: function(content, srcpath) {
-            return content.replace(/^# .+$/gm, "");
-          }
+          livereload: true
+        }
+      },
+    },
+    uglify: {
+      dist: {
+        options: {
+          banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' + '<%= grunt.template.today("yyyy-mm-dd") %> */',
+          compress: true,
+          beautify: false,
+          mangle: false
+        },
+        files: {
+          'js/main.js': [
+            'js/plugins/*.js',
+            'js/_*.js'
+          ]
         }
       }
-    }
+    },
+    imagemin: {
+      dist: {
+        options: {
+          optimizationLevel: 7,
+          progressive: true
+        },
+        files: [{
+          expand: true,
+          cwd: 'images/',
+          src: '{,*/}*.{png,jpg,jpeg}',
+          dest: 'images/'
+        }]
+      }
+    },
+    imgcompress: {
+      dist: {
+        options: {
+          optimizationLevel: 7,
+          progressive: true
+        },
+        files: [{
+          expand: true,
+          cwd: 'images/',
+          src: '{,*/}*.{png,jpg,jpeg}',
+          dest: 'images/'
+        }]
+      }
+    },
+    svgmin: {
+      dist: {
+        files: [{
+          expand: true,
+          cwd: 'images/',
+          src: '{,*/}*.svg',
+          dest: 'images/'
+        }]
+      }
+    },
   });
 
-  grunt.loadNpmTasks('grunt-contrib-copy');
+  // Load tasks
+  grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-newer');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-svgmin');
+  grunt.loadNpmTasks('grunt-imgcompress');
 
-  grunt.registerTask('build', ['copy']);
-  grunt.registerTask('default', ['build', 'watch']);
+  // Register tasks
+  grunt.registerTask('scripts', ['watch', 'uglify']);
+  grunt.registerTask('images', ['newer:imgcompress', 'newer:svgmin']);
 };
