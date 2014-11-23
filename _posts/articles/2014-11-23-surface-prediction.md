@@ -7,53 +7,24 @@ excerpt:
 tags: []
 image:
   feature:
-  teaser: teaser.gif
+  teaser:
   thumb:
 ads: false
-date: 2014-11-23T18:01:03+03:00
+date: 2014-11-23T18:01:03+02:00
 ---
 
 ## Introduction
-This is the source code for my "Surface prediction for a single image of urban scenes" paper. The paper will be published soon.
+This is the home page for my "Surface prediction for a single image of urban scenes" paper. The paper will be published soon.
 
-If you use this software or annotated data, please cite the paper (citation will be updated after publication in LNCS):
+The sorce code and annotated data available on [github](https://github.com/foat/surface-prediction/).
 
-F. Akhmadeev. "Surface prediction for a single image of urban scenes." Workshop on Scene Understanding for Autonomous Systems (ACCV Workshops), ACCV 2014.
+If you use the software or annotated data, please cite the paper (citation will be updated after publication in LNCS):
 
-## How to run
-
-The source code has been tested under OSX 10.9 and 10.10. Pure surface prediction approach should run under linux and windows too.
-
-To start the demo simply run ```demo_sp``` in matlab.
-
-## Additional libraries
-
-#### [Geometric reasoning]
-The ```surface prediction``` approach uses an initial orientation map from ```geometric reasoning``` to build final orientations of surfaces. In addition, vanishing points and lines are computed using the code from ```geometric reasoning``` by default.
-
-#### [Geometric context]
-Surface prediction approach can be combined with ```geometric context```.  
-To build GC you need to run ```make``` command in ```lib/segment/``` ([segmentation]) folder and build mex file from ```lib/GeometricContext/src/boosting/treevalc.c```.
-
-#### [VP detection]
-To use this algorithm you need to run ```make``` command in ```lib/VPdetection/``` folder. Then, uncomment ```[vp,f,linesmore] = main(img2);```  
-line in ```demo_sp.m```. Next,  
-```
-[lines, linesmore] = generate_lines(img2);  
-[vp, f] = compute_vp(lines, imsize2);
-```  
-comment those lines.
-
-The source code for vp detection has been modified by me so that it can run under OSX and opencv 2.4.9.  
-This library is not compatible with windows.
-
-## Test images
-We provide annotated data for [Delage et al. dataset] and [York Urban database]. See ```data/``` folder.
+F. Akhmadeev. "Surface prediction for a single image of urban scenes." Workshop on Scene Understanding for Autonomous Systems (ACCV Workshops), [ACCV 2014]. [[Poster]](/content/surface-prediction/poster.pdf).
 
 ## Additional information
 The paper was originally presented on the [SUAS 2014] workshop.
 
-[home site]: http://foat.me
 [SUAS 2014]: http://www.cvc.uab.es/adas/suas2014/
 [ACCV 2014]: http://www.accv2014.org
 
