@@ -1,6 +1,9 @@
 # Site navigation links
 
-- title:
-  url:
-  excerpt:
-  image:
+- title: About
+  url: /cv/
+  excerpt: "Curriculum vitae."
+
+- title: Surface prediction
+  url: /articles/surface-prediction/
+  excerpt: "3D reconstruction from a single image."

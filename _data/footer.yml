@@ -1,4 +1,7 @@
 # Footer navigation links
 
-- title:
-  url:
+- title: About
+  url: /cv/
+
+- title: Surface prediction
+  url: /articles/surface-prediction/
