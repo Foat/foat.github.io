@@ -3,8 +3,9 @@
 - title: About
   url: /cv/
   excerpt: "Curriculum vitae."
-  image: teaser.gif
+  image: teaser.jpg
 
 - title: Surface prediction
   url: /articles/surface-prediction/
   excerpt: "3D reconstruction from a single image."
+  image: sp_teaser.jpg

@@ -3,11 +3,11 @@ layout: article
 title: "Surface prediction"
 modified:
 categories: articles
-excerpt:
+excerpt: "3D reconstruction from a single image."
 tags: []
 image:
-  feature:
-  teaser:
+  feature: sp_feature.jpg
+  teaser: sp_teaser.jpg
   thumb:
 ads: false
 date: 2014-11-23T18:01:03+02:00

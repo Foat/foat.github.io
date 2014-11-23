@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Foat Akhmadeev
+title: Computer Vision by Foat
 description: "Computer vision, Image processing and Matlab"
-logo: # 120x120 px default image used for Twitter summary card
-teaser: teaser.gif
-locale: logo.gif
-url: http://localhost:4000
+logo: logo.jpg
+teaser: teaser.jpg
+locale: en_US
+url: //localhost:4000
 
 # Jekyll configuration
 
@@ -24,10 +24,11 @@ owner:
   name: Foat Akhmadeev
   email: foat.akhmadeev@gmail.com
   twitter:
+  web: http://foat.me
   google:
     ad-client: 
     ad-slot: 
-  bio: 
+  bio: "Computer vision research engineer"
   avatar: bio-photo.jpg # 160x160 px image for author byline
 disqus-shortname:
 
