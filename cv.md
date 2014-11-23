@@ -8,7 +8,7 @@ excerpt:
 tags: []
 image:
   feature:
-  teaser:
+  teaser: cv_teaser.jpg
   thumb:
 ads: false
 date: 2014-11-23T18:01:03+03:00

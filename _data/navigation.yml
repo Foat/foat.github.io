@@ -3,7 +3,7 @@
 - title: About
   url: /cv/
   excerpt: "Curriculum vitae."
-  image: teaser.jpg
+  image: cv_teaser.jpg
 
 - title: Surface prediction
   url: /articles/surface-prediction/
