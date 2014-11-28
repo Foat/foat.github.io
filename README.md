@@ -10,6 +10,7 @@ Image processing • Computer vision • Machine learning
 Scene understanding • Real-time object recognition
 
 ## Professional experience
+* November 2014 - Present. [CMP], Researcher
 * July 2013 - September 2014. [RoadAR], Computer vision developer
 	* Research in the field of computer vision.
 	* Real-time traffic sign recognition on mobile phones.
@@ -60,5 +61,6 @@ English (professional working proficiency)
 [Github]: https://github.com/foat
 [LinkedIn]: https://linkedin.com/in/akhmadeevfoat
 
+[CMP]: http://cmp.felk.cvut.cz
 [RoadAR]: http://roadar.ru
 [Digital Zone]: http://dz.ru

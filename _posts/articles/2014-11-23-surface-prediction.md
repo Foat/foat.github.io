@@ -16,7 +16,7 @@ date: 2014-11-23T18:01:03+02:00
 ## Introduction
 This is the home page for my "Surface prediction for a single image of urban scenes" paper. The paper will be published soon.
 
-The sorce code and annotated data available on [github](https://github.com/foat/surface-prediction/).
+The source code and annotated data available on [github](https://github.com/foat/surface-prediction/).
 
 If you use the software or annotated data, please cite the paper (citation will be updated after publication in LNCS):
 
