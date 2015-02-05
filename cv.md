@@ -24,7 +24,8 @@ Image processing • Computer vision • Machine learning
 Scene understanding • Real-time object recognition
 
 ## Professional experience
-* November 2014 - Present. [CMP], Researcher
+* November 2014 - January 2015. [CMP], Computer vision researcher
+	* Image rectification by using vanishing lines and local affine frames.
 * July 2013 - September 2014. [RoadAR], Computer vision developer
 	* Research in the field of computer vision.
 	* Real-time traffic sign recognition on mobile phones.
