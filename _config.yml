@@ -1,7 +1,7 @@
 # Site wide configuration
 
-title: Computer Vision by Foat
-description: "Computer vision, Image processing and Matlab"
+title: Foat Akhmadeev
+description: "Software development and research by using Java, C++ and Swift (not necessarily in that order)."
 logo: logo.jpg
 teaser: teaser.jpg
 locale: en_US
@@ -29,7 +29,7 @@ owner:
   google:
     ad-client: 
     ad-slot: 
-  bio: "Computer vision research engineer"
+  bio: "Senior software engineer"
   avatar: bio-photo.jpg # 160x160 px image for author byline
 disqus-shortname:
 

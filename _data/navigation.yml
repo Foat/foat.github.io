@@ -6,6 +6,11 @@
   image: cv_teaser.jpg
 
 - title: Surface prediction
-  url: /articles/surface-prediction/
+  url: /portfolio/surface-prediction/
   excerpt: "3D reconstruction from a single image."
   image: sp_teaser.jpg
+
+- title: Portfolio
+  url: /portfolio/
+  excerpt: "Coming soon."
+  image:

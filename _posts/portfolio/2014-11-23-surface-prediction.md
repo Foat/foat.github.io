@@ -1,8 +1,8 @@
 ---
-layout: article
+layout: portfolio
 title: "Surface prediction"
 modified:
-categories: articles
+categories: portfolio
 excerpt: "3D reconstruction from a single image."
 tags: []
 image:
