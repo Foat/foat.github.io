@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: article
 title: "Java + web"
 modified:
 categories: portfolio

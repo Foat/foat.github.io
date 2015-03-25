@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: article
 title: "Real-time traffic sign recognition"
 modified:
 categories: portfolio

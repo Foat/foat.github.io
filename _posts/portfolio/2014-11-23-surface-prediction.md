@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: article
 title: "Surface prediction"
 modified:
 categories: portfolio
