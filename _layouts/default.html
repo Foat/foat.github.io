@@ -27,10 +27,10 @@
       <script src="{{ site.url }}/js/vendor/respond.min.js"></script>
     <![endif]-->
 
-    {% if site.google.analytics %}
+    {% if site.owner.google.analytics %}
     <script type="text/javascript">
       var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', '{{ site.google.analytics }}']);
+      _gaq.push(['_setAccount', '{{ site.owner.google.analytics }}']);
       _gaq.push(['_trackPageview']);
       (function() {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
