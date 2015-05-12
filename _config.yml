@@ -1,7 +1,7 @@
 # Site wide configuration
 
 title: Foat Akhmadeev
-description: "Software development and research by using Java, C++ and Swift (not necessarily in that order)."
+description: "Software development and research by using Java, C++ and Swift."
 logo: logo.jpg
 teaser: teaser.jpg
 locale: en_US
@@ -19,6 +19,13 @@ highlighter: pygments
 gems:
   - jekyll-sitemap
 
+# Social icons
+github_username: foat
+stackoverflow_id:
+twitter_username:
+google_plus_id:
+linkedin_username: akhmadeevfoat
+angellist_username: foat-akhmadeev
 
 # Site owner
 owner:
@@ -29,8 +36,9 @@ owner:
   google:
     ad-client: 
     ad-slot: 
-  bio: "Senior software engineer"
-  avatar: bio-photo.jpg # 160x160 px image for author byline
+    analytics: UA-62776233-1
+  bio: "Software developer and researcher."
+  avatar: bio-photo.jpg
 disqus-shortname:
 
 

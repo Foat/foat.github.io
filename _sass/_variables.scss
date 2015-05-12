@@ -5,17 +5,20 @@
 /*
    Typography variables
    ========================================================================== */
+$base-color                  	: #343434;
+$comp-color                  	: complement($base-color);
 
-$base-font                   	: Georgia,Times,"Times New Roman",serif;
-$heading-font                	: "Helvetica Neue","Segoe UI",Arial,sans-serif;
-$caption-font                	: $base-font;
-$code-font                   	: monospace;
-$alt-font                    	: $heading-font;
+$base-font                    : 'Alegreya', Georgia, serif;
+$heading-font                 : 'Alegreya Sans', sans-serif;
+$heading-font-title           : 'Alegreya Sans', sans-serif;
+$caption-font                 : $base-font;
+$code-font                    : monospace;
+$alt-font                     : 'Alegreya Sans', sans-serif;
 
-$doc-font-size               	: 16;
-$doc-line-height             	: 24;
+$doc-font-size                : 16;
+$doc-line-height              : 24;
 
-$border-radius               	: 3px;
+$border-radius                : 5px;
 
 /*
    Color variables
@@ -23,84 +26,95 @@ $border-radius               	: 3px;
 
 $white                        : #fff;
 $black                        : #000;
+$gray                         : #635960;
 
-$body-color                  	: #ebebeb;
+$background-color             : mix($white, $gray, 90%);
+$body-color                   : $white;
 
-$text-color                  	: #313130;
+$text-color                   : mix($black, $gray, 25%);
 $caption-color                : mix($white, $text-color, 25%);
 
-$base-color                  	: #343434;
-$comp-color                  	: complement($base-color);
-$border-color                	: #ddd;
-$link-color                  	: #222;
+$highlighter-color            : #f3bc15;
 
-$primary-color               	: $black;
-$success-color               	: #2ecc71;
-$warning-color               	: #f1c40f;
-$danger-color                	: #e74c3c;
-$info-color                  	: #3498db;
+$primary-color                : mix($black, $gray, 35%);
+$success-color                : mix($gray, #2ecc71, 15%);
+$warning-color                : mix($gray, #f3bc15, 15%);
+$danger-color                 : mix($gray, #dc081d, 15%);
+$info-color                   : mix($gray, #427ab8, 15%);
 
-$table-border-color          	: $border-color;
-$table-border                	: 1px solid $table-border-color;
-$table-background            	: $body-color;
-$table-header-color          	: lighten($table-background, 10);
-$table-hover-color           	: darken($table-background, 2);
-$table-stripe-color          	: darken($table-background, 4);
-$table-stripe-color-hover    	: darken($table-stripe-color, 5);
+$border-color                 : mix($white, $gray, 80%);
 
-$facebook-color					      : #3b5998;
-$flickr-color					        : #ff0084;
-$foursquare-color				      : #0cbadf;
-$google-plus-color				    : #dd4b39;
-$instagram-color				      : #4e433c;
-$linkedin-color					      : #4875b4;
-$pinterest-color				      : #cb2027;
-$rss-color						        : #fa9b39;
-$tumblr-color					        : #2c4762;
-$twitter-color					      : #55acee;
-$vimeo-color					        : #1ab7ea;
-$youtube-color		            : #ff3333;
+$link-color                   : $text-color;
+$link-color-hover             : mix($black, $text-color, 20%);
 
+$table-border-color           : $border-color;
+$table-border                 : 1px solid $table-border-color;
+$table-background             : $white;
+$table-header-color           : $white;
+$table-hover-color            : mix($gray, $table-background, 10%);
+$table-stripe-color           : mix($gray, $table-background, 10%);
+$table-stripe-color-hover     : mix($gray, $table-background, 10%);
+
+$badge-background             : $primary-color;
+$badge-dark-color             : $black;
+$badge-danger-color           : $danger-color;
+$badge-info-color             : $info-color;
+$badge-warning-color          : $warning-color;
+$badge-success-color          : $success-color;
+$badge-font-color             : $white;
+
+$facebook-color               : #3b5998;
+$flickr-color                 : #ff0084;
+$foursquare-color             : #0cbadf;
+$google-plus-color            : #dd4b39;
+$instagram-color              : #4e433c;
+$linkedin-color               : #4875b4;
+$pinterest-color              : #cb2027;
+$rss-color                    : #fa9b39;
+$tumblr-color                 : #2c4762;
+$twitter-color                : #55acee;
+$vimeo-color                  : #1ab7ea;
+$youtube-color                : #ff3333;
+$github-color                 : #333333;
 
 /*
    Form variables
    ========================================================================== */
 
-$form-border-color           	: $border-color;
-$form-border-color-hover     	: darken($border-color, 10);
-$form-border-color-focus     	: $primary-color;
-$form-border-radius          	: $border-radius;
-$form-box-shadow             	: inset 0 1px 3px hsla(0, 0%, 0%, 0.06);
-$form-box-shadow-focus       	: $form-box-shadow, 0 0 5px rgba(darken($form-border-color-focus, 5), 0.7);
-$form-font-family            	: $base-font;
-$form-font-size              	: $doc-font-size;
-
-
-/*
-   Sliding menu navigation variables
-   ========================================================================== */
-
-$sliding-menu-border-color	 	 : $black;
-$sliding-menu-background 		   : $black;
-$sliding-menu-color 	 		     : $white;
-$sliding-menu-background-hover : $black;
-$sliding-menu-color-hover	 	   : $white;
-$sliding-menu-border   			   : 1px solid $sliding-menu-border-color;
-$button-size		         	     : 30px;
-$transition						         : 0.3s; // increase this to see the transformations in slow-motion
-$sliding-menu-animation        : all 500ms cubic-bezier(.86,.01,.77,.78);
+$form-background              : mix($white, $border-color, 50%);
+$form-border-color            : $border-color;
+$form-border-color-hover      : mix($black, $border-color, 10%);
+$form-border-color-focus      : $primary-color;
+$form-border-radius           : $border-radius;
+$form-box-shadow              : inset 0 1px 3px hsla(0, 0%, 0%, 0.06);
+$form-box-shadow-focus        : $form-box-shadow, 0 0 5px rgba(mix($black, $form-border-color-focus, 10%), 0.7);
+$form-font-family             : $base-font;
+$form-font-size               : $doc-font-size;
 
 /*
-   Badge variables
+   Code snippet variables
    ========================================================================== */
 
-$badge-background              : $primary-color;
-$badge-dark-color              : $black;
-$badge-danger-color            : $danger-color;
-$badge-info-color              : $info-color;
-$badge-warning-color           : $warning-color;
-$badge-success-color           : $success-color;
-$badge-font-color              : $white;
+$code-background              : mix($white, $border-color, 75%);
+$code-border-color            : $border-color;
+$code-border-color-hover      : mix($black, $border-color, 10%);
+$code-border-radius           : $border-radius;
+
+$inline-code-background       : mix($white, $border-color, 75%);
+
+/*
+   Sliding menu variables
+   ========================================================================== */
+
+$sliding-menu-border-color    : mix($black, $gray, 70%);
+$sliding-menu-background      : mix($black, $gray, 70%);
+$sliding-menu-color           : $white;
+$sliding-menu-background-hover: $black;
+$sliding-menu-color-hover     : $white;
+$sliding-menu-border          : 1px solid $sliding-menu-border-color;
+$button-size                  : 30px;
+$transition                   : 0.3s; /* increase this to see the transformations in slow-motion */
+$sliding-menu-animation       : all 500ms cubic-bezier(.86,.01,.77,.78);
 
 
 /*
@@ -108,3 +122,12 @@ $badge-font-color              : $white;
    ========================================================================== */
 
 $masthead-height: $button-size * 2;
+
+
+/*
+   Visual sitemap
+   ========================================================================== */
+
+$sitemap-primary-color        : mix($white, $primary-color, 60%);
+$sitemap-sub-color            : mix($white, $primary-color, 80%);
+$sitemap-sub-sub-color        : mix($white, $primary-color, 90%);
