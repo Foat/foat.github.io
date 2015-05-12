@@ -31,13 +31,12 @@ angellist_username: foat-akhmadeev
 owner:
   name: Foat Akhmadeev
   email: foat.akhmadeev@gmail.com
-  twitter:
   web: http://foat.me
   google:
     ad-client: 
     ad-slot: 
     analytics: UA-62776233-1
-  bio: "Software developer and researcher."
+  bio: "Software engineer and researcher."
   avatar: bio-photo.jpg
 disqus-shortname:
 

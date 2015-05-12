@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum vitae"
 modified:
 permalink: /cv/
 categories:
@@ -11,21 +11,25 @@ image:
   teaser: cv_teaser.jpg
   thumb:
 ads: false
-date: 2014-11-23T18:01:03+03:00
+date: 2015-05-12T22:01:03+03:00
 ---
 
-Computer vision research engineer  
+Java/C++ software engineer, Computer vision R&D  
 [E-mail], [Github], [LinkedIn]
 
 ### [pdf version](/cv.pdf)
 
-## Research interests
-Image processing • Computer vision • Machine learning  
+## Interests
+Image processing • Computer vision • Software engineering  
 Scene understanding • Real-time object recognition
 
 ## Professional experience
+* February 2015 - Present. Self-employed, Java/C++ software engineer, Computer vision R&D
+	* Computer vision, iOS projects.
+	* C++, Java, Swift development.
 * November 2014 - January 2015. [CMP], Computer vision researcher
 	* Image rectification by using vanishing lines and local affine frames.
+	* C++, Matlab R&D.
 * July 2013 - September 2014. [RoadAR], Computer vision developer
 	* Research in the field of computer vision.
 	* Real-time traffic sign recognition on mobile phones.
@@ -61,7 +65,7 @@ Application and web servers (JBoss, Tomcat, Jetty).
 Revision control (Git, Subversion).  
 Build tools (Maven, Gradle, CMake).  
 Systems on administration level (OS X, Linux, Windows).  
-Other (Spring MVC, EJB, GWT, JQuery, MySQL, PostgreSQL).  
+Other (Spring MVC, EJB, GWT, JQuery, MySQL, PostgreSQL, GAE).  
 Digital typesetting (TeX, LaTeX).
 
 ## Languages
@@ -69,8 +73,8 @@ Russian (native speaker)
 English (professional working proficiency)
 
 ## Publications
-[1] F. Akhmadeev. "Surface prediction for a single image of urban scenes.  
-"[Workshop on Scene Understanding for Autonomous Systems](http://www.cvc.uab.es/adas/suas2014/) (ACCV Workshops), [ACCV 2014](http://www.accv2014.org).
+[1] F. Akhmadeev. "Surface prediction for a single image of urban scenes." [[link]](http://dx.doi.org/10.1007/978-3-319-16628-5_27), [[poster]](/content/surface-prediction/poster.pdf)  
+[Workshop on Scene Understanding for Autonomous Systems](http://www.cvc.uab.es/adas/suas2014/) (ACCV Workshops), [ACCV 2014](http://www.accv2014.org).
 
 [E-mail]: mailto:foat.akhmadeev@gmail.com
 [Github]: https://github.com/foat
