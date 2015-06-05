@@ -3,11 +3,11 @@ layout: article
 title: Java Aspects Using Spring AOP and AspectJ
 modified:
 categories: articles
-excerpt: 
+excerpt: Playing with aspects in java.
 tags: [java, gradle, aspectj, spring aop, spring boot, source code, spring, spring framework]
 image:
   feature:
-  teaser:
+  teaser: aspect_teaser.png
   thumb:
 comments: true
 date: 2015-06-05T16:52:42+03:00
@@ -46,7 +46,7 @@ dependencies {
 }
 {% endhighlight %}
 
-As you can see here, we use [dynamic versions] for gradle, e.g. `4.+`. This specifies the placeholder for the latest major version of `4`. In addition, we apply an `application` plugin, it is really useful if you do not use any IDE. You can just run in command line `gradle run` to start the application and that's it!
+As you can see here, we use [dynamic versions] for gradle, e.g. `4.+`. This specifies the placeholder for the latest major version of `4`. In addition, we apply an `application` plugin, it is really useful if you do not use any IDE. You can just use `gradle run` in command line to start the application and that's it!
 
 ## Example function
 As a starting point we will use [Spring Boot]. It is an excellent framework with the help of which you can quickly build a test [Spring Framework] application.
@@ -80,19 +80,19 @@ This is a common aspect which is applied around a method, there are also many di
 
 This aspect is applied only to those methods which have `@AroundMethod` annotation. Plus, we add this annotation as an argument, so we can address its fields.
 
-We have finished the preparation part. Now lets see what can we do with all of that.
+We have finished the preparation part. Now lets see what we can do with all of that.
 
 We can get method arguments. Great!
 {% highlight java %}
 Object[] args = joinPoint.getArgs();
 {% endhighlight %}
 
-Or even method information itself. Much better!
+Or method information itself. Much better!
 {% highlight java %}
 Method method = ((MethodSignature) joinPoint.getSignature()).getMethod();
 {% endhighlight %}
 
-Or even more better - extract all annotations of method arguments. Excellent!
+Or even better - extract all annotations of method arguments. Excellent!
 {% highlight java %}
 Annotation[][] annotations = method.getParameterAnnotations();
 {% endhighlight %}
@@ -121,15 +121,15 @@ we need to filter it somehow to get an appropriate index. We apply a filter with
 
 And as a final point we add `.findFirst();` to get the first argument index which have `@ChangeParam` annotation.
 
-This is a functional style to write the code and it is closer to natural language, write it more and you will get used to it. Just try!
+This is a functional style to write the code and it is closer to the natural language, write it more and you will get used to it. Just try!
 
-We have got the index. We can change that argument and do whatever we want with it before the function starts. Oh, and how do we actually execute a function?
+We have got the index. We can change the argument and do whatever we want with it before the function starts. Oh, and how do we actually execute a function?
 
 {% highlight java %}
 Object result = joinPoint.proceed(args);
 {% endhighlight %}
 
-This runs the function and returns its result. Now, we can override it. If you want, you can do that by placing a new result as a return value of our `ExampleAspect#process` function.
+This runs the function and returns its result. If you want, you can override the result by placing a new result as a return value of our `ExampleAspect#process` function.
 
 ## Try it!
 Lets run an example ([source code]). [http://127.0.0.1:8080/multiply?number=42](http://127.0.0.1:8080/multiply?number=42) if you follow the url you will see the result `(42 * 100)`, where `(` was applied before the method (in the aspect), `*` added by the method and `100)` after the method (in the aspect), where `100` is the value of `@ChangeParam` annotation.
@@ -144,10 +144,10 @@ private String internalMethodAdd(@ChangeParam String number) { return number + "
 
 We want the result to be `((42 + 200) * 100)` in that case. But what we see is `(42 + * 100)`. That is not correct! What could go wrong?
 
-Actually, nothing. That is how [Spring AOP] works. It uses proxy to call methods which uses aspects. Then, if you call an internal method you call the exact method, not a proxy you need to. What can we do with that? We need native [AspectJ].
+Actually, nothing. That is how [Spring AOP] works. Spring uses proxy to call a function. Then, if you call an internal method you call the exact method bypassing spring, not a proxy you need to. What can we do with that? We need native [AspectJ].
 
 ### AspectJ config
-To include native [AspectJ] functionality uncomment this in `gradle.build` file:
+To include native [AspectJ] functionality uncomment those lines in `gradle.build` file:
 {% highlight groovy linenos=table %}
 configurations {
     aspectjweaver
