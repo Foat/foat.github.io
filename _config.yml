@@ -38,7 +38,7 @@ owner:
     analytics: UA-62776233-1
   bio: "Software engineer and researcher."
   avatar: bio-photo.jpg
-disqus-shortname: foat-me
+  disqus-shortname: "foat-me"
 
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
