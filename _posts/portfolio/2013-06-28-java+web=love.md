@@ -4,7 +4,7 @@ title: "Java + web"
 modified:
 categories: portfolio
 excerpt: "Сomplex services for project ulmart.ru - a large and high-loaded online retailer."
-tags: []
+tags: [java, ulmart, digital zone, dz, mysql, spring, spring framework, jsp, freemarker, solr]
 image:
   feature: java_feature.png
   teaser: java_teaser.png

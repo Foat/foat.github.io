@@ -4,7 +4,7 @@ title: "Surface prediction"
 modified:
 categories: portfolio
 excerpt: "3D reconstruction from a single image."
-tags: []
+tags: [research, matlab, c++, computer vision, image processing, singapore, paper, source code, conference, poster, accv, accv 2014, suas, suas 2014]
 image:
   feature: sp_feature.jpg
   teaser: sp_teaser.jpg

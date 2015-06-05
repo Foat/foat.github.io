@@ -3,8 +3,8 @@ layout: article
 title: Java Aspects Using Spring AOP and AspectJ
 modified:
 categories: articles
-excerpt:
-tags: []
+excerpt: 
+tags: [java, gradle, aspectj, spring aop, spring boot, source code, spring, spring framework]
 image:
   feature:
   teaser:
@@ -48,7 +48,7 @@ dependencies {
 
 As you can see here, we use [dynamic versions] for gradle, e.g. `4.+`. This specifies the placeholder for the latest major version of `4`. In addition, we apply an `application` plugin, it is really useful if you do not use any IDE. You can just run in command line `gradle run` to start the application and that's it!
 
-## Example method
+## Example function
 As a starting point we will use [Spring Boot]. It is an excellent framework with the help of which you can quickly build a test [Spring Framework] application.
 
 First, we create a simple method which takes number as a string and adds multiplication symbol to the end of the number.
@@ -162,7 +162,12 @@ applicationDefaultJvmArgs = [
 {% endhighlight %}
 
 Here we get `aspectjweaver` library from gradle cache and add it as a `javaagent`. Now, try to open the link again.
-`((42 + 200) * 100)`. Bingo! We did it!
+`((42 + 200) * 100)`. We did it!
+
+As we see, aspect paradigm is indeed a powerful tool. We can build complex systems by using it. It is usually used for logging and method performance testing, but aspects are not limited by this.
+
+## Source code
+The source code is available on [github](https://github.com/Foat/articles/tree/master/java-aspects) under MIT License.
 
 [Aspect-oriented paradigm]: http://en.wikipedia.org/wiki/Aspect-oriented_programming
 [Gradle]: https://gradle.org

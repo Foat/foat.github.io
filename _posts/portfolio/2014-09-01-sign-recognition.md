@@ -4,7 +4,7 @@ title: "Real-time traffic sign recognition"
 modified:
 categories: portfolio
 excerpt: "for mobile phones - RoadAR project."
-tags: []
+tags: [research, c++, computer vision, image processing, roadar, mobile, android, traffic signs]
 image:
   feature: sign_feature.jpg
   teaser: sign_teaser.jpg
