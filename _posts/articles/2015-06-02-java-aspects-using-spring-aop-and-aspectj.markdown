@@ -51,7 +51,7 @@ As you can see here, we use [dynamic versions] for gradle, e.g. `4.+`. This spec
 ## Example function
 As a starting point we will use [Spring Boot]. It is an excellent framework with the help of which you can quickly build a test [Spring Framework] application.
 
-First, we create a simple method which takes number as a string and adds multiplication symbol to the end of the number.
+First, we create a simple method which takes a number as a string and adds the multiplication symbol to the end of the number.
 
 {% highlight java linenos=table %}
 @RequestMapping(value = "/multiply", method = RequestMethod.GET)
@@ -62,7 +62,7 @@ public String multiply(HttpServletRequest request, @RequestParam @ChangeParam St
 }
 {% endhighlight %}
 
-Probably, you have already mentioned `@AroundMethod` annotation. This annotation is used to add new functionality around our method. In addition, there is `@ChangeParam` annotation, we will talk about it a bit later.
+Probably, you have already mentioned `@AroundMethod` annotation. This annotation is used to add new functionality around our method. In addition, there is a `@ChangeParam` annotation, we will talk about it a bit later.
 
 ## Aspects review
 Here comes the `@Aspect` time!
@@ -75,8 +75,8 @@ public class ExampleAspect {
 }
 {% endhighlight %}
 
-This is a common aspect which is applied around a method, there are also many different types of aspect, such as
-`@Before` and `@After` which are used before and after method respectively (what a surprise!). And do not forget to add `@Aspect` as a class annotation.
+This is a common aspect which is applied around a method, there are also many different types of aspects, such as
+`@Before` and `@After` which run before and after a method respectively (what a surprise!). And do not forget to add `@Aspect` as a class annotation.
 
 This aspect is applied only to those methods which have `@AroundMethod` annotation. Plus, we add this annotation as an argument, so we can address its fields.
 
@@ -97,8 +97,8 @@ Or even more better - extract all annotations of method arguments. Excellent!
 Annotation[][] annotations = method.getParameterAnnotations();
 {% endhighlight %}
 
-### Java 8 features
-Lets get an argument index. We use java 8, in that case let me show you some cool features that java provides in a functional way.
+#### Java 8 features
+Lets get an argument index. Remember `@ChangeParam` annotation? We use java 8 and in that case let me show you some cool features that java provides in a functional way.
 
 `annotations` is an array of arrays, because for each method argument we may have several annotations.
 First, we create an index range:
@@ -111,17 +111,17 @@ we need to filter it somehow to get an appropriate index. We apply a filter with
 {% highlight java linenos=table %}
 .filter(i ->
         Arrays
-        	// convert array to stream to be able to use java 8 features
+        	// convert array to a stream to be able to use java 8 features
                 .stream(annotations[i])
-                // check if any of argument annotations meet this condition
+                // check if any of argument annotations meet the condition
                 .filter(a -> a instanceof ChangeParam)
                 .findAny()
                 .isPresent()) 
 {% endhighlight %}
 
-And as a final point we add `.findFirst();` to get the first argument index which meet the above conditions.
+And as a final point we add `.findFirst();` to get the first argument index which have `@ChangeParam` annotation.
 
-This is more natural style to write the code, write it more and you will get used to it. Just try!
+This is a functional style to write the code and it is closer to natural language, write it more and you will get used to it. Just try!
 
 We have got the index. We can change that argument and do whatever we want with it before the function starts. Oh, and how do we actually execute a function?
 
@@ -129,13 +129,13 @@ We have got the index. We can change that argument and do whatever we want with 
 Object result = joinPoint.proceed(args);
 {% endhighlight %}
 
-This runs the function and returns its result. Now, we can override it. If you want, you can do that by placing a new result as a return value.
+This runs the function and returns its result. Now, we can override it. If you want, you can do that by placing a new result as a return value of our `ExampleAspect#process` function.
 
-## Example running
-Lets run an example. [http://127.0.0.1:8080/multiply?number=42](http://127.0.0.1:8080/multiply?number=42) if you follow this url you will see the result `(42 * 100)`, where `42` was applied before the method (in the aspect), `*` added by the method, `* 100` after the method (in the aspect), where `100` is the value of `@ChangeParam` annotation.
+## Try it!
+Lets run an example ([source code]). [http://127.0.0.1:8080/multiply?number=42](http://127.0.0.1:8080/multiply?number=42) if you follow the url you will see the result `(42 * 100)`, where `(` was applied before the method (in the aspect), `*` added by the method and `100)` after the method (in the aspect), where `100` is the value of `@ChangeParam` annotation.
 
 ## Internal method calls
-Lest move on. Suppose we want to add another function and call it from `multiply` method.
+The next step is a bit tricky. Suppose we want to add another function and call it from `multiply` method.
 
 {% highlight java %}
 @AroundMethod(value = 200)
@@ -144,7 +144,7 @@ private String internalMethodAdd(@ChangeParam String number) { return number + "
 
 We want the result to be `((42 + 200) * 100)` in that case. But what we see is `(42 + * 100)`. That is not correct! What could go wrong?
 
-Actually, nothing. That is how [Spring AOP] works. It is uses proxies to call methods which use aspects. In that case if you call an internal method you call the exact method, not a proxy you need to. What can we do with that? We need native [AspectJ].
+Actually, nothing. That is how [Spring AOP] works. It uses proxy to call methods which uses aspects. Then, if you call an internal method you call the exact method, not a proxy you need to. What can we do with that? We need native [AspectJ].
 
 ### AspectJ config
 To include native [AspectJ] functionality uncomment this in `gradle.build` file:
@@ -161,7 +161,7 @@ applicationDefaultJvmArgs = [
 ]
 {% endhighlight %}
 
-Here we get `aspectjweaver` library from gradle cache and add it as a `javaagent`. Now, try to open the link again.
+Here we get `aspectjweaver` library from gradle cache and add it as a `javaagent`. Now, try to open the [link](http://127.0.0.1:8080/multiply?number=42) again.
 `((42 + 200) * 100)`. We did it!
 
 As we see, aspect paradigm is indeed a powerful tool. We can build complex systems by using it. It is usually used for logging and method performance testing, but aspects are not limited by this.
@@ -180,3 +180,5 @@ The source code is available on [github](https://github.com/Foat/articles/tree/m
 
 [dynamic versions]: https://docs.gradle.org/1.8-rc-1/userguide/dependency_management.html#sub:dynamic_versions_and_changing_modules
 [Application plugin]: https://docs.gradle.org/current/userguide/application_plugin.html
+
+[source code]: https://github.com/Foat/articles/tree/master/java-aspects
