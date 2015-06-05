@@ -9,7 +9,8 @@ image:
   feature:
   teaser:
   thumb:
-date: 2015-06-02T15:52:42+03:00
+comments: true
+date: 2015-06-05T16:52:42+03:00
 ---
 
 [Aspect-oriented paradigm] is a really cool feature that you can use in your projects. With it you can easily apply additional functionality to your code without modifying the main body of a function.
