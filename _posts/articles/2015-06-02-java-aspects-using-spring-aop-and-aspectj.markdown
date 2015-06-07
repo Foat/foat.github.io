@@ -17,12 +17,12 @@ date: 2015-06-05T16:52:42+03:00
 
 {% include toc.html %}
 
-Here, we will see how to configure a simple [Gradle] project using [Java] with such popular frameworks like [Spring AOP] and [AspectJ].
+Here, we will see how to configure a simple [Gradle] project using [Java] with such popular frameworks as [Spring AOP] and [AspectJ].
 
 ## Gradle configuration
 We start from the gradle configuration file:
 
-{% highlight groovy linenos=table %}
+{% highlight groovy %}
 group 'me.foat.articles.aspects'
 version '1.0'
 
@@ -53,7 +53,7 @@ As a starting point we will use [Spring Boot]. It is an excellent framework with
 
 First, we create a simple method which takes a number as a string and adds the multiplication symbol to the end of the number.
 
-{% highlight java linenos=table %}
+{% highlight java %}
 @RequestMapping(value = "/multiply", method = RequestMethod.GET)
 @AroundMethod
 public String multiply(HttpServletRequest request, @RequestParam @ChangeParam String number) {
@@ -67,7 +67,7 @@ Probably, you have already mentioned `@AroundMethod` annotation. This annotation
 ## Aspects review
 Here comes the `@Aspect` time!
 
-{% highlight java linenos=table %}
+{% highlight java %}
 @Aspect
 public class ExampleAspect {
     @Around("execution(@me.foat.articles.aspects.annotations.AroundMethod * *.*(..)) && @annotation(ann)")
@@ -108,7 +108,7 @@ IntStream
 {% endhighlight %}
 
 we need to filter it somehow to get an appropriate index. We apply a filter with a predicate for that:
-{% highlight java linenos=table %}
+{% highlight java %}
 .filter(i ->
         Arrays
         	// convert array to a stream to be able to use java 8 features
@@ -148,7 +148,7 @@ Actually, nothing. That is how [Spring AOP] works. Spring uses proxy to call a f
 
 ### AspectJ config
 To include native [AspectJ] functionality uncomment those lines in `gradle.build` file:
-{% highlight groovy linenos=table %}
+{% highlight groovy %}
 configurations {
     aspectjweaver
 }

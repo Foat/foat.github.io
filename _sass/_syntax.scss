@@ -18,16 +18,17 @@
 
 .highlight {
 	overflow-x: auto;
-	@include font-size(16);
-	border: 1px solid darken($body-color, 5);
-	border-radius: $border-radius;
+	@include font-size(16,no);
+	background: $code-background;
+	border: 1px solid $code-border-color;
+	border-radius: $code-border-radius;
 	pre {
 		position: relative;
 		margin: 0;
 		padding: 1em;
 	}
 	&:hover {
-		border: 1px solid $form-border-color-hover;
+		border: 1px solid $code-border-color-hover;
 	}
 }
 
