@@ -147,7 +147,7 @@ We want the result to be `((42 + 200) * 100)` in that case. But what we see is `
 Actually, nothing. That is how [Spring AOP] works. Spring uses proxy to call a function. Then, if you call an internal method you call the exact method bypassing spring, not a proxy you need to. What can we do with that? We need native [AspectJ].
 
 ### AspectJ config
-To include native [AspectJ] functionality uncomment those lines in `gradle.build` file:
+To include native [AspectJ] functionality uncomment those lines in the `gradle.build` file:
 {% highlight groovy %}
 configurations {
     aspectjweaver
