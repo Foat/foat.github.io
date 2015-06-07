@@ -5,7 +5,7 @@ description: "Software development and research using Java, Scala and Swift."
 logo: logo.jpg
 teaser: teaser.jpg
 locale: en_US
-url: //foat.me
+url: http://foat.me
 
 # Jekyll configuration
 
@@ -23,7 +23,7 @@ gems:
 github_username: foat
 stackoverflow_id:
 twitter_username: foat_akhmadeev
-google_plus_id:
+google_plus_id: 107621933198216749305
 linkedin_username: akhmadeevfoat
 angellist_username: foat-akhmadeev
 
@@ -32,6 +32,7 @@ owner:
   name: Foat Akhmadeev
   email: foat.akhmadeev@gmail.com
   web: http://foat.me
+  twitter: foat_akhmadeev
   google:
     ad-client: 
     ad-slot: 
