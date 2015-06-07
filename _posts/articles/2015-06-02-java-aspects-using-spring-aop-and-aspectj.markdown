@@ -20,7 +20,7 @@ date: 2015-06-05T16:52:42+03:00
 Here, we will see how to configure a simple [Gradle] project using [Java] with such popular frameworks like [Spring AOP] and [AspectJ].
 
 ## Gradle configuration
-We start from a gradle configuration file:
+We start from the gradle configuration file:
 
 {% highlight groovy linenos=table %}
 group 'me.foat.articles.aspects'
@@ -70,8 +70,8 @@ Here comes the `@Aspect` time!
 {% highlight java linenos=table %}
 @Aspect
 public class ExampleAspect {
-    @Around("execution(@me.foat.articles.aspects.annotations.AroundMethod * *.*(..)) && @annotation(change)")
-    public Object process(ProceedingJoinPoint joinPoint, AroundMethod change) throws Throwable {}
+    @Around("execution(@me.foat.articles.aspects.annotations.AroundMethod * *.*(..)) && @annotation(ann)")
+    public Object process(ProceedingJoinPoint joinPoint, AroundMethod ann) throws Throwable {}
 }
 {% endhighlight %}
 
