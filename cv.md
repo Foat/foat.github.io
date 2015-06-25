@@ -20,7 +20,7 @@ Java/C++ software engineer, Computer vision R&D
 ### [pdf version](/cv.pdf)
 
 ## Interests
-Computer vision • Web development • Software engineering
+Computer vision • Web development • Software engineering  
 Computational finance • E-commerce • Writing
 
 
