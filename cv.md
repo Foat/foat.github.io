@@ -20,13 +20,14 @@ Java/C++ software engineer, Computer vision R&D
 ### [pdf version](/cv.pdf)
 
 ## Interests
-Image processing • Computer vision • Software engineering  
-Scene understanding • Real-time object recognition
+Computer vision • Web development • Software engineering
+Computational finance • E-commerce • Writing
+
 
 ## Professional experience
 * February 2015 - Present. Self-employed, Java/C++ software engineer, Computer vision R&D
-	* Computer vision, iOS projects.
-	* C++, Java, Swift development.
+	* Web frameworks, computer vision tasks.
+	* Java, JavaScript, C++ development.
 * November 2014 - January 2015. [CMP], Computer vision researcher
 	* Image rectification by using vanishing lines and local affine frames.
 	* C++, Matlab R&D.
