@@ -85,8 +85,8 @@ Other: Spring Framework, EJB, GWT, JQuery, MySQL, PostgreSQL, GAE.
 Digital typesetting: TeX, LaTeX.  
 
 ## Languages
-Russian (native speaker)  
-English (professional working proficiency)
+Russian (native speaker),  
+English (full professional proficiency).
 
 ## Publications
 [1] F. Akhmadeev. "Surface prediction for a single image of urban scenes." [[link]](http://dx.doi.org/10.1007/978-3-319-16628-5_27), [[poster]](/content/surface-prediction/poster.pdf)  
