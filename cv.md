@@ -48,7 +48,7 @@ Web development • E-commerce • Technical writing
 	* Conducting technical interviews.
 	* Java frontend and backend development.
 	* Project: [ulmart.ru], ([link 1](http://dz.ru/portfolio/clients/ulmart/release_1-0/), [link 2](http://dz.ru/portfolio/clients/ulmart/release_2-0)).
-	* Relatedskills:Java,MySQL,SpringMVC,ApacheSolr,JavaScript,Applicationservers,Freemarker, Git, Maven.
+	* Related skills: Java, MySQL, Spring MVC, ApacheSolr, JavaScript, Application servers, Freemarker, Git, Maven.
 * September 2011 - April 2013. [Digital Zone], Software developer
 	* Java frontend and backend development.
 	* Projects:
