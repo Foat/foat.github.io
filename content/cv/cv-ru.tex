@@ -1,0 +1,163 @@
+\documentclass[10pt, a4paper]{article}
+\usepackage{fontspec} 
+\usepackage{fontawesome}
+\usepackage[russian]{babel}
+
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
+\setlength\parindent{0in}
+
+% FONTS
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont [Ligatures={Common}, Numbers={OldStyle}, Variant=01]{Linux Libertine O}
+\setmonofont[Scale=0.8]{Monaco}
+
+% ---- CUSTOM COMMANDS
+\chardef\&="E050
+\newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
+\newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
+\newcommand{\doi}[1]{\href{#1}{\scriptsize\textsc{[doi]}}}
+% ---- MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\amper{}}{\chardef\amper="E0BD }
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\mdseries\upshape\Large}
+\subsectionfont{\mdseries\scshape\normalsize} 
+\subsubsectionfont{\mdseries\upshape\large} 
+
+\def\myauthor{Фоат Ахмадеев}
+\def\mytitle{\myauthor - резюме}
+\def\myemail{foat.akhmadeev@gmail.com}
+\def\mygithub{github.com/foat}
+\def\mylinkedin{linkedin.com/in/akhmadeevfoat}
+\def\myhomesite{foat.me}
+
+\usepackage[bookmarks, colorlinks, breaklinks, 
+	pdftitle={\myauthor - vita},
+	pdfauthor={\myauthor}
+]{hyperref}  
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} 
+
+
+% DOCUMENT
+\begin{document}
+{\LARGE \myauthor}\\[1cm]
+\begin{minipage}[t]{2in}
+\flushleft {Java/C++ программист,\\Разработчик в области компьютерного зрения}
+\end{minipage}
+\begin{minipage}[t]{4in}
+\flushleft
+\faHome \, \href{http://\myhomesite}{\myhomesite}\\
+\faEnvelopeAlt \, \href{mailto:\myemail}{\myemail}\\
+\faGithub \, \href{https://\mygithub}{\mygithub}\\
+\faLinkedin \, \href{https://\mylinkedin}{\mylinkedin}\\
+\end{minipage}
+
+\section*{Интересы}
+Управление проектами • Компьютерное зрение • Разработка программного обеспечения\\
+Веб разработка • Электронная коммерция • Писательская деятельность
+
+\section*{Опыт работы}
+\noindent
+\years{2015-по настоящее время}{Фриланс, \textbf{Java/C++ программист,\\Разработчик в области компьютерного зрения}
+\begin{itemize}
+\item{Web frameworks, computer vision tasks.}
+\item{Java, JavaScript, C++ development.}
+\end{itemize}
+\years{2014-2015}{\href{http://cmp.felk.cvut.cz}{CMP}, \textbf{Исследователь в области компьютерного зрения.}
+\begin{itemize}
+\item{Исследование и разработка в области компьютерного зрения.}
+\item{Image rectification by using vanishing lines and local affine frames.}
+\item{C++, Matlab R\&D.}
+\end{itemize}
+\years{2013-2014}{\href{http://roadar.ru}{RoadAR}, \textbf{Разработчик в области компьютерного зрения}
+\begin{itemize}
+\item{Исследование и разработка в области компьютерного зрения.}
+\item{Распознавание дорожных знаков в реальном времени на телефоне.}
+\item{Проект: \href{https://play.google.com/store/apps/details?id=ru.roadar.android}{RoadAR}}.
+\end{itemize}
+}
+\years{2013}{\href{http://dz.ru}{Digital Zone}, \textbf{Старший Java разработчик.}
+\begin{itemize}
+\item{Управление проектами и проверка кода.}
+\item{Проведение технических интервью.}
+\item{Java веб frontend и backend разработка.}
+\item{Проект: \href{http://www.ulmart.ru}{ulmart.ru} (\href{http://dz.ru/portfolio/clients/ulmart/release_1-0/}{link 1}, \href{http://dz.ru/portfolio/clients/ulmart/release_2-0/}{link 2}). Навыки: Java, JEE, MySQL, Spring MVC, JSP, Apache Solr, HTML, CSS, JavaScript, JQuery, Apache Tomcat, Jetty, shell script, XML, JSON, Freemarker, Git.}
+\end{itemize}
+}
+\years{2011-2013}{\href{http://dz.ru}{Digital Zone}, \textbf{Java разработчик}
+\begin{itemize}
+\item{Java веб frontend и backend разработка.}
+\item{Проекты:
+\begin{itemize}
+\item{Проекты связанные с социальными сетями. Навыки: Java, JEE, GWT, Spring MVC, EJB, Apache Solr, JSP, HTML, CSS, JavaScript, Maven, JBoss, Subversion.}
+\item{\href{http://www.ulmart.ru}{ulmart.ru}. Навыки: Java, JEE, MySQL, Spring MVC, JSP, Apache Solr, HTML, CSS, JavaScript, JQuery, JBoss, Apache Tomcat, Jetty, shell script, XML, JSON, Freemarker, Subversion, Git.}
+\end{itemize}
+}
+\end{itemize}
+}
+
+\section*{Образование}
+\noindent
+\years{2012-2014}{\textbf{Магистр информационных технологий}\\
+\textit{Казанский федеральный университет}, Россия\\
+\textsc{руководитель}: Евгений Столов, Казанский федеральный университет
+\begin{itemize}
+\item{Проект: \textit{Восстановление 3D модели урбанистического пейзажа с одного изображения}}.
+\item{Публикация: \cite{foat2014prediction}}.
+\item{Области: Компьютерное зрение, Обработка изображений.}
+\item{Основные технологии: Matlab, C++, \TeX}.
+\end{itemize}
+}
+\years{2008-2012}{\textbf{Бакалавр информационных технологий}\\
+\textit{Казанский федеральный университет}, Россия\\
+\textsc{руководители}: Евгений Столов, Казанский федеральный университет; Александр Шлянников, Казанский федеральный университет
+\begin{itemize}
+\item{Проекты: \textit{Распознавание рукописных цифр}, \textit{Электронная библиотека с использованием GWT}}.
+\item{Области: Компьютерное зрение, Обработка изображений, Веб разработка.}
+\item{Основные технологии: Java, JEE, GWT}.
+\end{itemize}
+}
+
+\section*{Навыки в области ИТ}
+Основные языки (Java, C++).\\
+Анализ данных (Matlab).\\
+Скриптовые языки (shell script, JavaScript).\\
+Языки разметки (XML, JSON, HTML, CSS).\\
+Языки запросов (SQL).\\
+Сервера приложений (JBoss, Apache Tomcat, Jetty).\\
+Системы управления версиями (Git, Subversion).\\
+Системы сборки приложений (Maven, Gradle, CMake).\\
+Операционные системы (OS X, Linux, Windows).\\
+Другое (Spring MVC, EJB, GWT, JQuery, MySQL, PostgreSQL, GAE).\\
+Компьютерная верстка (\TeX, \LaTeX).
+
+\section*{Знание языков}
+\textit{Русский} (родной)\\
+\textit{Английский} (свободное владение)
+
+\renewcommand{\refname}{\section*{Публикации}\subsection*{Опубликованные работы}}
+\bibliographystyle{abbrv}
+\bibliography{lib}
+
+\vfill{}
+
+\begin{center}
+{\scriptsize  Последнее обновление: \today\- •\- 
+% ---- PLEASE LEAVE THIS BACKLINK FOR ATTRIBUTION AS PER CC-LICENSE
+Создано с помощью \href{http://nitens.org/taraborelli/cvtex}{
+\fontspec{Times New Roman}Lua\TeX}\\
+\href{http://foat.me/cv-ru.pdf}{http://foat.me/cv-ru.pdf}}
+\end{center}
+
+\end{document}
