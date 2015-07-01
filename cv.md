@@ -14,60 +14,75 @@ ads: false
 date: 2015-05-12T22:01:03+03:00
 ---
 
-Java/C++ software engineer, Computer vision R&D  
+Senior software engineer  
 [E-mail], [Github], [LinkedIn]
 
 ### [pdf version](/cv.pdf)
 
 ## Interests
-Computer vision • Web development • Software engineering  
-Computational finance • E-commerce • Writing
-
+Project management • Computer vision • Software engineering  
+Web development • E-commerce • Technical writing
 
 ## Professional experience
-* February 2015 - Present. Self-employed, Java/C++ software engineer, Computer vision R&D
-	* Web frameworks, computer vision tasks.
-	* Java, JavaScript, C++ development.
+* February 2015 - Present. Self-employed, Senior software engineer
+	* Java, C++ development.
+	* Computer vision R&D.
+	* Project management.
+	* Projects:
+		* Java throttling framework development from scratch.
+		* Real-time road lane recognition on C++.
+		* Detection several instances of an object on a single image for Android.
+		* Upgrading interpreter written on Java.
+	* Related skills: Java, JavaScript, C++, Android, MySQL, Spring Framework, GAE, OpenCV, Build automation tools, Git.
 * November 2014 - January 2015. [CMP], Computer vision researcher
-	* Image rectification by using vanishing lines and local affine frames.
-	* C++, Matlab R&D.
+	* Computer vision R&D.
+	* Project: Image rectification using vanishing lines and local affine frames.
+	* Related skills: C++, Matlab, Unix, Git.
 * July 2013 - September 2014. [RoadAR], Computer vision developer
-	* Research in the field of computer vision.
+	* Computer vision R&D.
 	* Real-time traffic sign recognition on mobile phones.
-	* C++, Java development.
 	* Project: [RoadARApp](https://play.google.com/store/apps/details?id=ru.roadar.android).
+	* Related skills: C++, Java, OpenCV, PostgreSQL, Swing, Maven, Android NDK, Boost library, CMake, Git.
 * April 2013 - July 2013. [Digital Zone], Senior software developer
 	* Project management and code review.
 	* Conducting technical interviews.
 	* Java frontend and backend development.
-	* Project: Ulmart [link 1](http://dz.ru/portfolio/clients/ulmart/release_1-0/), [link 2](http://dz.ru/portfolio/clients/ulmart/release_2-0).
+	* Project: [ulmart.ru], ([link 1](http://dz.ru/portfolio/clients/ulmart/release_1-0/), [link 2](http://dz.ru/portfolio/clients/ulmart/release_2-0)).
+	* Relatedskills:Java,MySQL,SpringMVC,ApacheSolr,JavaScript,Applicationservers,Freemarker, Git, Maven.
 * September 2011 - April 2013. [Digital Zone], Software developer
 	* Java frontend and backend development.
+	* Projects:
+		* Social networks related websites.
+		* [ulmart.ru].
+	* Related skills: Java, GWT, Spring MVC, EJB, Apache Solr, JavaScript, Application servers, Freemarker, Version control, Build automation tools.
 
 ## Education
 * 2012 - 2014. MSc in Computer Science  
 Kazan Federal University, Russia  
 advisor: Evgeny Stolov, Kazan Federal University  
-	* Project: 3D scene reconstruction from a single view.
-	* Publications: [1].
+	* Computer vision, Image processing.
+	* Project: 3D scene reconstruction from a single view. Publication: [1].
+	* Related skills: Matlab, C++, TeX.
 
 * 2008 - 2012. BSc in Computer Science  
 Kazan Federal University, Russia  
 advisors: Evgeny Stolov, Kazan Federal University; Aleksandr Shlyannikov, Kazan Federal University
-	* Projects: Handwritten digit recognition, E-library using GWT.
+	* Computer vision, Image processing, Web development.
+	* Projects: Handwritten digit recognition, E-library using GWT .
+	* Related skills: Java, JEE, GWT.
 
 ## It & programming skills
-Data analysis (Matlab).  
-Main languages (C++, Java, Scala).  
-Scripting languages (shell script, JavaScript).  
-Markup languages (XML, JSON, HTML, CSS).  
-Query languages (SQL).  
-Application and web servers (JBoss, Tomcat, Jetty).  
-Revision control (Git, Subversion).  
-Build tools (Maven, Gradle, CMake).  
-Systems on administration level (OS X, Linux, Windows).  
-Other (Spring MVC, EJB, GWT, JQuery, MySQL, PostgreSQL, GAE).  
-Digital typesetting (TeX, LaTeX).
+Main languages: Java, C++.  
+Data analysis: Matlab.  
+Scripting languages: Shell script, JavaScript.  
+Markup languages: XML, JSON, HTML, CSS.  
+Query languages: SQL.  
+Application and web servers: JBoss, Tomcat, Jetty.  
+Revision control: Git, Subversion.  
+Build tools: Maven, Gradle, CMake.  
+Systems on administration level: OS X, Linux, Windows.  
+Other: Spring Framework, EJB, GWT, JQuery, MySQL, PostgreSQL, GAE.  
+Digital typesetting: TeX, LaTeX.  
 
 ## Languages
 Russian (native speaker)  
@@ -84,3 +99,4 @@ English (professional working proficiency)
 [CMP]: http://cmp.felk.cvut.cz
 [RoadAR]: http://roadar.ru
 [Digital Zone]: http://dz.ru
+[ulmart.ru]: http://www.ulmart.ru
