@@ -1,7 +1,7 @@
 ---
 layout: article
 title: The Beginning of Scala Journey 2
-modified:
+modified: 2015-08-20T23:45:12+03:00
 categories: articles
 excerpt: Scala reactive notes, part 1.
 tags: [Scala Journey, reactive, Scala, Java, Coursera, ScalaCheck, yield]
@@ -25,9 +25,9 @@ It was a long time ago since I was developing something using [Scala]. This is a
 
 It is time for me to refresh my memories and learn something cool about that awesome language. But first, let me give you some background.
 
-It was March of 2013. And my first course on [Coursera]: [Functional Programming Principles in Scala]. The same year I participated in [Principles of Reactive Programming] course. Worth noting that I got the highest score in both. The courses are really interesting, even if you do not know neither [Java] nor [Scala], you can apply in [Coursera] to learn some principles of functional and reactive programming. I began to develop more on [Scala], but I did not focused on it much. So eventually, I moved to another field --- computer vision. But that is a topic for another time.
+It was March of 2013. And my first course on [Coursera]: [Functional Programming Principles in Scala]. The same year I participated in [Principles of Reactive Programming] course. Worth noting that I got the highest score in both. The courses are really interesting, even if you do not know neither [Java] nor [Scala], you can apply in [Coursera] to learn some principles of functional and reactive programming. I began to develop more on [Scala], but I did not focused on it much. So eventually, I moved to another field --- computer vision. But that is a story for another time.
 
-Several weeks ago I was thinking, why not to participate in those courses one more time? Actually, this is a good point, since new sessions of the courses provide new materials. Especially, there are new programming assignments.
+Several weeks ago I was thinking, why not to participate in those courses again? Actually, this is a good point, since new sessions of the courses provide new materials. Especially, there are new programming assignments.
 And because of that, learning the courses the second time will not be boring. The bad thing is, I was a bit late for the second session of the [Principles of Reactive Programming] course. The good thing, I applied to the course some time ago, I just did not have time to do the course tasks. Besides, I have access to the course materials and programming assignments. I can even send the assignments via an automatic checking system (I have already tested that). Eventually, things are not bad after all. Yes, I will not receive a grade, but who cares? I just need to refresh my memories.
 
 I have a plan now of how to keep all things that I have learned in one place --- blog. If you want to understand something, try to explain that to someone else. This is a modified version of a brilliant quote from [Dirk Gently's Holistic Detective Agency] by [Douglas Adams]: "If you really want to understand something, the best way is to try and explain it to someone else. That forces you to sort it out in your mind."
