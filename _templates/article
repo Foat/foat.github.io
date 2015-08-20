@@ -1,0 +1,14 @@
+---
+layout: article
+title: {{ title }}
+modified:
+categories: articles
+excerpt:
+tags:
+image:
+  feature:
+  teaser:
+  thumb:
+comments: true
+date: {{ date }}
+---
