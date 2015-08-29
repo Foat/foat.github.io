@@ -5,7 +5,7 @@ description: "Software development and research using Java and Scala."
 logo: logo.jpg
 teaser: teaser.jpg
 locale: en_US
-url: http://foat.me
+url: //localhost:4000
 
 # Jekyll configuration
 
@@ -36,7 +36,7 @@ owner:
   google:
     ad-client: 
     ad-slot: 
-    analytics: UA-62776233-1
+    analytics:
   bio: "Software engineer and researcher."
   avatar: bio-photo.jpg
   disqus-shortname: "foat-me"
