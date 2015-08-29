@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Reactive Fun With Scala.js
-modified:
+modified: 2015-08-29T15:30:07+03:00
 categories: articles
 excerpt: Scala reactive notes, part 2.
 tags: [ScalaJourney, reactive, Scala, Java, ScalaJS, ScalaRX]
@@ -15,7 +15,7 @@ date: 2015-08-29T14:33:07+03:00
 
 I want to extend the whole idea behind my notes for the [Principles of Reactive Programming] course. I will include here some interesting materials that I have found over the last week. Likely, [Scala] is a really wide field to discover something new. The idea is to tie topics from the course to the articles and to form a better understanding of the whole Scala language.
 
-In the article we will see how to use [Reactive Programming] paradigm in your [Scala] applications.
+In this article we will see how to use [Reactive Programming] paradigm in your [Scala] applications.
 
 {% include toc.html %}
 
@@ -72,7 +72,7 @@ Probably, you have notices that we use `%%%` for dependencies. This allows compi
 
 In the current application we will build a simple page where we get a mouse position and draw a rectangle on a canvas under the cursor.
 
-Here is the final [Scala] source file for that:
+Here is a [Scala] source file for that:
 {% highlight scala %}
 @JSExport
 object MousePosition {
@@ -143,7 +143,7 @@ val center = Rx { mousePos() - half }
 
 You can get the current value of both `Var` and `Rx` by calling `mousePos()` or `center()`. This is equivalent to `entity.apply()` method call.
 
-Next, the `Obs` class observes `Rx` or `Var` entities and do some post-processing (side-effects) when the observed value is changed. `skipInitial` means that the body of `Obs` will not run after the declaration and it will be evaluated only after a change of an observed value. 
+Next, the `Obs` class observes `Rx` or `Var` entities and does some post-processing (side-effects) when the observed value is changed. `skipInitial` means that the body of `Obs` will not run after the declaration and it will be evaluated only after a change of an observed value. 
 
 {% highlight scala %}
 Obs(center, skipInitial = true) {
@@ -185,19 +185,19 @@ Let's add an additional code for the implicit conversion from `Rx` to `Node`. I 
 import scala.language.implicitConversions
 
 implicit def rxNode[T](r: Rx[T]): Node = {
-    def rSafe: dom.Node = {
-      val node = dom.document.createElement("div")
-      node.textContent = r().toString
-      node
-    }
-    var last = rSafe
-    Obs(r, skipInitial = true) {
-      val newLast = rSafe
-      js.Dynamic.global.last = last
-      last.parentNode.replaceChild(newLast, last)
-      last = newLast
-    }
-    last
+  def rSafe: dom.Node = {
+    val node = dom.document.createElement("div")
+    node.textContent = r().toString
+    node
+  }
+  var last = rSafe
+  Obs(r, skipInitial = true) {
+    val newLast = rSafe
+    js.Dynamic.global.last = last
+    last.parentNode.replaceChild(newLast, last)
+    last = newLast
+  }
+  last
 }
 {% endhighlight %}
 
