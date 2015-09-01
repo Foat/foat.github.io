@@ -36,10 +36,13 @@
 
 \def\myauthor{Foat Akhmadeev}
 \def\mytitle{\myauthor - vita}
+\def\myphone{+1 (773) 828-4272}
 \def\myemail{foat.akhmadeev@gmail.com}
 \def\mygithub{github.com/foat}
 \def\mylinkedin{linkedin.com/in/akhmadeevfoat}
 \def\myhomesite{foat.me}
+\def\mycitizenship{Russia}
+\def\mytimezone{UTC+3}
 
 \usepackage[bookmarks, colorlinks, breaklinks, 
 	pdftitle={\myauthor - vita},
@@ -47,41 +50,46 @@
 ]{hyperref}  
 \hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} 
 
-
 % DOCUMENT
 \begin{document}
 {\LARGE \myauthor}\\[1cm]
 \begin{minipage}[t]{2in}
-\flushleft {Senior software engineer}
+\flushleft {Scala/Java software engineer}
 \end{minipage}
-\begin{minipage}[t]{4in}
+\begin{minipage}[t]{2in}
 \flushleft
 \faHome \, \href{http://\myhomesite}{\myhomesite}\\
 \faEnvelopeAlt \, \href{mailto:\myemail}{\myemail}\\
+\faPhone \, \myphone\\
 \faGithub \, \href{https://\mygithub}{\mygithub}\\
 \faLinkedin \, \href{https://\mylinkedin}{\mylinkedin}\\
 \end{minipage}
+\begin{minipage}[t]{3in}
+\flushleft
+\textbf{citizenship} \, \mycitizenship\\
+\textbf{time zone}\, \, \, \mytimezone\\
+\end{minipage}
 
 \section*{Interests}
-Project management • Computer vision • Software engineering\\
-Web development • E-commerce • Technical writing
+Software engineering • Project management • Computer vision \\
+Scala • E-commerce • Technical writing
 
 \section*{Professional experience}
 \noindent
-\years{2015-Present}{Self-employed, \textbf{Senior software engineer}
+\years{2015-present}{Self-employed, \textbf{Senior software engineer}
 \begin{itemize}
-\item{Java, C++ development.}
+\item{Java, Scala, C++ development.}
 \item{Computer vision R\&D.}
 \item{Project management.}
 \item{Projects:
 \begin{itemize}
+\item{A website development using Scala Play framework.}
 \item{Java throttling framework development from scratch.}
+\item{Robust and fast algorithm for multiply chalkboard detection.}
 \item{Real-time road lane recognition on C++.}
-\item{Detection several instances of an object on a single image for Android.}
-\item{Upgrading \href{https://github.com/contrasetup/contra}{interpreter} written on Java.}
 \end{itemize}
 }
-\item{Related skills: Java, JavaScript, C++, Android, MySQL, Spring Framework, GAE,
+\item{Related skills: Scala, Java, JavaScript, C++, Spring Framework, Play framework,
 OpenCV, Build automation tools, Git.}
 \end{itemize}
 \years{2014-2015}{\href{http://cmp.felk.cvut.cz}{CMP}, \textbf{Computer vision researcher}
@@ -142,24 +150,24 @@ OpenCV, Build automation tools, Git.}
 }
 
 \section*{It \& programming skills}
-\textit{Main languages}: Java, C++.\\
+\textit{Main languages}: Java, Scala, C++.\\
 \textit{Data analysis}: Matlab.\\
 \textit{Scripting languages}: Shell script, JavaScript.\\
 \textit{Markup languages}: XML, JSON, HTML, CSS.\\
 \textit{Query languages}: SQL.\\
 \textit{Application and web servers}: JBoss, Tomcat, Jetty.\\
 \textit{Revision control}: Git, Subversion.\\
-\textit{Build tools}: Maven, Gradle, CMake.\\
-\textit{Systems on administration level}: OS X, Linux, Windows.\\
-\textit{Other}: Spring Framework, EJB, GWT, JQuery, MySQL, PostgreSQL, GAE.\\
+\textit{Build tools}: Maven, Gradle, CMake, SBT.\\
+\textit{Systems on administration level}: OS X, Linux.\\
+\textit{Other}: Spring Framework, Play framework, OpenCV, Swing, Android NDK, MySQL, PostgreSQL.\\
 \textit{Digital typesetting}: \TeX, \LaTeX.
 
 \section*{Languages}
 \textit{Russian} (native speaker),\\
-\textit{English} (full professional proficiency).
+\textit{English} (professional proficiency).
 
 \renewcommand{\refname}{\section*{Publications}}
-\bibliographystyle{abbrv}
+\bibliographystyle{IEEEtran}
 \bibliography{lib}
 
 \vfill{}

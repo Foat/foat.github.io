@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Curriculum vitae"
-modified:
+modified: 2015-09-01T21:01:03+03:00
 permalink: /cv/
 categories:
 excerpt:
@@ -14,26 +14,26 @@ ads: false
 date: 2015-05-12T22:01:03+03:00
 ---
 
-Senior software engineer  
+Scala/Java software engineer  
 [E-mail], [Github], [LinkedIn]
 
 ### [pdf version](/cv.pdf)
 
 ## Interests
 Project management • Computer vision • Software engineering  
-Web development • E-commerce • Technical writing
+Scala • E-commerce • Technical writing
 
 ## Professional experience
 * February 2015 - Present. Self-employed, Senior software engineer
-	* Java, C++ development.
+	* Java, Scala, C++ development.
 	* Computer vision R&D.
 	* Project management.
 	* Projects:
+		* A website development using Scala Play framework.
 		* Java throttling framework development from scratch.
+		* Robust and fast algorithm for multiply chalkboard detection.
 		* Real-time road lane recognition on C++.
-		* Detection several instances of an object on a single image for Android.
-		* Upgrading interpreter written on Java.
-	* Related skills: Java, JavaScript, C++, Android, MySQL, Spring Framework, GAE, OpenCV, Build automation tools, Git.
+	* Related skills: Scala, Java, JavaScript, C++, Spring Framework, Play framework, OpenCV, Build automation tools, Git.
 * November 2014 - January 2015. [CMP], Computer vision researcher
 	* Computer vision R&D.
 	* Project: Image rectification using vanishing lines and local affine frames.
@@ -72,21 +72,21 @@ advisors: Evgeny Stolov, Kazan Federal University; Aleksandr Shlyannikov, Kazan 
 	* Related skills: Java, JEE, GWT.
 
 ## It & programming skills
-Main languages: Java, C++.  
+Main languages: Java, Scala, C++.  
 Data analysis: Matlab.  
 Scripting languages: Shell script, JavaScript.  
 Markup languages: XML, JSON, HTML, CSS.  
 Query languages: SQL.  
 Application and web servers: JBoss, Tomcat, Jetty.  
 Revision control: Git, Subversion.  
-Build tools: Maven, Gradle, CMake.  
-Systems on administration level: OS X, Linux, Windows.  
-Other: Spring Framework, EJB, GWT, JQuery, MySQL, PostgreSQL, GAE.  
-Digital typesetting: TeX, LaTeX.  
+Build tools: Maven, Gradle, CMake, SBT.  
+Systems on administration level: OS X, Linux.  
+Other: Spring Framework, Play framework, OpenCV, Swing, Android NDK, MySQL, PostgreSQL.  
+Digital typesetting: TEX, LATEX.
 
 ## Languages
 Russian (native speaker),  
-English (full professional proficiency).
+English (professional proficiency).
 
 ## Publications
 [1] F. Akhmadeev. "Surface prediction for a single image of urban scenes." [[link]](http://dx.doi.org/10.1007/978-3-319-16628-5_27), [[poster]](/content/surface-prediction/poster.pdf)  
