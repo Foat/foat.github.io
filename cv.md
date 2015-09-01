@@ -17,7 +17,7 @@ date: 2015-05-12T22:01:03+03:00
 Scala/Java software engineer  
 [E-mail], [Github], [LinkedIn]
 
-### [pdf version](/cv.pdf)
+### [pdf](/cv.pdf)/[doc](/cv.doc) versions
 
 ## Interests
 Project management • Computer vision • Software engineering  
