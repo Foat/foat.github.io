@@ -17,7 +17,7 @@ date: 2015-05-12T22:01:03+03:00
 Scala/Java software engineer  
 [E-mail], [Github], [LinkedIn]
 
-### [[pdf]](/cv.pdf)/[[doc]](/cv.doc) versions
+### [[pdf]](/cv.pdf) / [[doc]](/cv.doc) versions
 
 ## Interests
 Project management • Computer vision • Software engineering  
@@ -33,7 +33,7 @@ Scala • E-commerce • Technical writing
 		* Java throttling framework development from scratch.
 		* Robust and fast algorithm for multiply chalkboard detection.
 		* Real-time road lane recognition on C++.
-	* Related skills: Scala, Java, JavaScript, C++, Spring Framework, Play framework, OpenCV, Build automation tools, Git.
+	* Related skills: Scala, Java, Unit testing, Mocking, TDD, BDD, JavaScript, C++, Spring Framework, Play framework, OpenCV, Build automation tools, Git.
 * November 2014 - January 2015. [CMP], Computer vision researcher
 	* Computer vision R&D.
 	* Project: Image rectification using vanishing lines and local affine frames.
@@ -42,7 +42,7 @@ Scala • E-commerce • Technical writing
 	* Computer vision R&D.
 	* Real-time traffic sign recognition on mobile phones.
 	* Project: [RoadARApp](https://play.google.com/store/apps/details?id=ru.roadar.android).
-	* Related skills: C++, Java, OpenCV, PostgreSQL, Swing, Maven, Android NDK, Boost library, CMake, Git.
+	* Related skills: C++, Java, OpenCV, Unit testing, PostgreSQL, Swing, Maven, Android NDK, Boost library, CMake, Git.
 * April 2013 - July 2013. [Digital Zone], Senior software developer
 	* Project management and code review.
 	* Conducting technical interviews.
@@ -81,7 +81,7 @@ Application and web servers: JBoss, Tomcat, Jetty.
 Revision control: Git, Subversion.  
 Build tools: Maven, Gradle, CMake, SBT.  
 Systems on administration level: OS X, Linux.  
-Other: Spring Framework, Play framework, OpenCV, Swing, Android NDK, MySQL, PostgreSQL.  
+Other: Spring Framework, Play framework, OpenCV, Swing, Android NDK, MySQL, PostgreSQL, TDD, BDD.  
 Digital typesetting: TEX, LATEX.
 
 ## Languages
