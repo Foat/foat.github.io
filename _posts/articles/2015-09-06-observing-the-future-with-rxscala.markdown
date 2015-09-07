@@ -91,5 +91,5 @@ The source code is available on [github](https://github.com/Foat/articles/tree/m
 [Scala]: http://www.scala-lang.org
 [Scala.Rx]: https://github.com/lihaoyi/scala.rx
 [Scala.js]: http://www.scala-js.org
-[asyncawait]: (https://github.com/yortus/asyncawait)
+[asyncawait]: https://github.com/yortus/asyncawait
 [AngularJS]: https://angularjs.org
