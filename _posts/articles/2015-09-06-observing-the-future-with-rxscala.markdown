@@ -80,7 +80,7 @@ As you can see, we are not creating a callback function here. Instead, we use su
 
 Next, in the code above, you can see a different approach of waiting for the end of a computation --- [CountDownLatch](http://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CountDownLatch.html). This class is designed for multithreading, you just set the initial count of the latch, and when it reaches zero by calling `countDown` method, all waiting threads are released. Besides, you can set the maximum time for `await` function, this will be useful, if you do not want the main thread to wait too long.
 
-Finally, [RxScala] is an excellent tool which you can use in your applications to get much cleaner and understandable code. In some cases, when you do not need to deal with a lot of callbacks or do any heavy computation, you can just use pure callback related approaches. But when it comes to something more difficult, then the [ReactiveX] platform is the thing that will improve your code.
+Finally, [RxScala] is an excellent tool which you can use in your applications to get much cleaner and understandable code. In some cases, when you do not need to deal with a lot of callbacks or do any heavy computation, you may prefer to use pure callback related approaches. But when it comes to do something more difficult, then the [ReactiveX] platform is the thing that will improve your code.
 
 ## Source code
 The source code is available on [github](https://github.com/Foat/articles/tree/master/observing-futures) under MIT License.
