@@ -3,7 +3,7 @@ layout: article
 title: "Real-time traffic sign recognition"
 modified:
 categories: portfolio
-excerpt: "for mobile phones - RoadAR project."
+excerpt: C++ algorithm for mobile phones which outperforms state-of-the-art approaches. RoadAR project.
 tags: [research, c++, computer vision, image processing, roadar, mobile, android, traffic signs]
 image:
   feature: sign_feature.jpg

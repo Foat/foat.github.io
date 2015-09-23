@@ -3,7 +3,7 @@ layout: article
 title: "Surface prediction"
 modified:
 categories: portfolio
-excerpt: "3D reconstruction from a single image."
+excerpt: 3D reconstruction from a single image of urban scenes. The algorithm that I presented on SUAS 2014, ACCV workshop in Singapore.
 tags: [research, matlab, c++, computer vision, image processing, singapore, paper, source code, conference, poster, accv, accv 2014, suas, suas 2014]
 image:
   feature: sp_feature.jpg

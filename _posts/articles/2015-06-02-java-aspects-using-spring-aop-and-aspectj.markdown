@@ -3,7 +3,7 @@ layout: article
 title: Java Aspects Using Spring AOP and AspectJ
 modified:
 categories: articles
-excerpt: Playing with aspects in java.
+excerpt: Simple start for everyone who wants to use annotation based Aspects with Spring.
 tags: [java, gradle, aspectj, spring aop, spring boot, source code, spring, spring framework]
 image:
   feature:
@@ -116,7 +116,7 @@ we need to filter it somehow to get an appropriate index. We apply a filter with
                 // check if any of argument annotations meet the condition
                 .filter(a -> a instanceof ChangeParam)
                 .findAny()
-                .isPresent()) 
+                .isPresent())
 {% endhighlight %}
 
 And as a final point we add `.findFirst();` to get the first argument index which have `@ChangeParam` annotation.

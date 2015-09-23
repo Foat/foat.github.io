@@ -3,7 +3,7 @@ layout: article
 title: Reactive Fun With Scala.js
 modified: 2015-08-29T15:30:07+03:00
 categories: articles
-excerpt: Scala reactive notes, part 2.
+excerpt: Scala reactive notes, part 2. Demo application using reactive library and Scala.js.
 tags: [ScalaJourney, reactive, Scala, Java, ScalaJS, ScalaRX]
 image:
   feature:
@@ -35,7 +35,7 @@ What is [Scala.js] actually?
 
 Let's take a look in the past. I was influenced by the [GWT] project a lot when I just started to learn [Java]. At first, I thought that [Scala.js] is something similar. And it is mostly used to create admin consoles for websites. But this is a really different topic.
 
-Scala.js provides a way to compile your [Scala] code to [JavaScript]. There is not much sense to just compile Scala to JavaScript without Scala and Java APIs. And guess what? [Scala.js] includes almost everything from those APIs! 
+Scala.js provides a way to compile your [Scala] code to [JavaScript]. There is not much sense to just compile Scala to JavaScript without Scala and Java APIs. And guess what? [Scala.js] includes almost everything from those APIs!
 
 Furthermore, you can reuse the same code for client and server by using [Scala.js], this is a relief for many developers who needed to write a lot of similar code on front end and back end.
 
@@ -126,7 +126,7 @@ def start(div: html.Div, canvas: html.Canvas): Unit
 {% endhighlight %}
 Static typing! In a big [JavaScript] project it is a real problem not to have this.
 
-Then, there is a simple block where we set `canvas` size and get its context to use it later. It should be familiar to you, if you know [JavaScript]. 
+Then, there is a simple block where we set `canvas` size and get its context to use it later. It should be familiar to you, if you know [JavaScript].
 
 ### Reactive way
 
@@ -134,7 +134,7 @@ We are going reactive!
 
 To enable [Scala.Rx] features do not forget to add `import rx._` line in a [Scala] source file.
 
-The first thing we define is a mouse position. The `Point` class is wrapped in a class named `Var`. When the `Var` value is updated, it forces to recalculate all connected entities such as `Rx`. 
+The first thing we define is a mouse position. The `Point` class is wrapped in a class named `Var`. When the `Var` value is updated, it forces to recalculate all connected entities such as `Rx`.
 
 {% highlight scala %}
 val mousePos = Var(Point(0, 0))
@@ -143,7 +143,7 @@ val center = Rx { mousePos() - half }
 
 You can get the current value of both `Var` and `Rx` by calling `mousePos()` or `center()`. This is equivalent to `entity.apply()` method call.
 
-Next, the `Obs` class observes `Rx` or `Var` entities and does some post-processing (side-effects) when the observed value is changed. `skipInitial` means that the body of `Obs` will not run after the declaration and it will be evaluated only after a change of an observed value. 
+Next, the `Obs` class observes `Rx` or `Var` entities and does some post-processing (side-effects) when the observed value is changed. `skipInitial` means that the body of `Obs` will not run after the declaration and it will be evaluated only after a change of an observed value.
 
 {% highlight scala %}
 Obs(center, skipInitial = true) {
@@ -219,7 +219,7 @@ Here is a part of an HTML file, which is used for production:
     article.MousePosition().start(document.getElementById('position'), document.getElementById('canvas'));
 </script>
 {% endhighlight %}
-First, we place two `<div>` elements for displaying the position of a mouse cursor and a canvas, where rectangles are drawn. 
+First, we place two `<div>` elements for displaying the position of a mouse cursor and a canvas, where rectangles are drawn.
 
 Next, we add generated JavaScript file here, its name is based on a project name and a suffix `opt` (means optimized), there is a version which have `fastopt` suffix, it is used for developing and contains additional information for debugging.
 

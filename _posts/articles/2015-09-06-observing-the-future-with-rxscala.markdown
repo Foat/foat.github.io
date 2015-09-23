@@ -3,7 +3,7 @@ layout: article
 title: Observing the Future With RxScala
 modified:
 categories: articles
-excerpt: Scala reactive notes, part 3.
+excerpt: Scala reactive notes, part 3. Reactive paradigm which leads to a better code.
 tags: [ScalaJourney, reactive, Scala, Java, RxScala, RxJava]
 image:
   feature:
@@ -36,9 +36,9 @@ We create an `Observable` which emits values starting from `0` each 100 millisec
 
 Run the code and see the output:
 
-    value = 0  
-    value = 1  
-    value = 2  
+    value = 0
+    value = 1
+    value = 2
     ...
 
 What if we remove the `Await` from the code? In that case you will not see anything, since the main thread will stop its execution first, while the `intervals` computation will be performed in a different thread.

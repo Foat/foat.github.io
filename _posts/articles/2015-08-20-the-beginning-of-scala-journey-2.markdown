@@ -3,7 +3,7 @@ layout: article
 title: The Beginning of Scala Journey 2
 modified: 2015-08-20T23:45:12+03:00
 categories: articles
-excerpt: Scala reactive notes, part 1.
+excerpt: Scala reactive notes, part 1. Implicit, yield and ScalaCheck quick start.
 tags: [ScalaJourney, reactive, Scala, Java, Coursera, ScalaCheck, yield]
 image:
   feature:
