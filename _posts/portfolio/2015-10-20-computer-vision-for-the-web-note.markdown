@@ -15,7 +15,7 @@ date: 2015-10-20T15:15:50+03:00
 
 [The book] presents various examples of computer vision algorithms usage in the JavaScript world.
 
-* [website page](/portfolio/computer-vision-for-the-web/), where you can see all source code examples in action.
+* [website page](/computer-vision-for-the-web/), where you can see all source code examples in action.
 * [source code](https://github.com/Foat/computer-vision-for-the-web)
 
 Probably, you want to understand how libraries, which are presented in the book, work. The best way to do that is to learn the background behind them --- computer vision algorithms. The book provides an intuitive way of how to use computer vision libraries without spending much time on a sophisticated theory. The information provided there should be sufficient for computer vision beginners.
