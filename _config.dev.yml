@@ -31,11 +31,11 @@ angellist_username: foat-akhmadeev
 owner:
   name: Foat Akhmadeev
   email: foat.akhmadeev@gmail.com
-  web: http://foat.me
+  web: https://foat.me
   twitter: foat_akhmadeev
   google:
-    ad-client: 
-    ad-slot: 
+    ad-client:
+    ad-slot:
     analytics:
   bio: "Software engineer and researcher."
   avatar: bio-photo.jpg
