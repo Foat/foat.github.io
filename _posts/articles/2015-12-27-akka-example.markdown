@@ -33,6 +33,9 @@ def receive: Receive
 
 The method must implement the partial function.
 
+**Actor or Future?** If there is no state in an `Actor`, then it is much better to use a simple `Future` or something related which is focused on a stateless behavior.
+{: .notice-inverse}
+
 We will create two types of Actors which will create a communication layer --- `Sender` which will send all messages to the second Actor --- `Store`, the Actor that will store the received messages.
 
 ## Sender
@@ -62,9 +65,6 @@ It contains a `count` variable which stores the number of sent messages.
 Actors in Scala use `!` symbol to send a message. As you can see here, the `Sender` sends a message with its `id` and `count` in a string to the `Store`. The Actors can send not only a string, but an object too.
 
 We do not want to send messages forever, so we add a check for `count` variable here. If it is smaller than the threshold, we send a start message to the Actor itself to continue the cycle. Otherwise, we send a `PoisonPill` message. It is used to stop an Actor without breaking the message queue. So all messages which were received before the pill will be processed as usual.
-
-**Futures and Actors:** If there is no state in an `Actor`, then it is much better to use a simple `Future` or something related which is focused on a stateless behavior.
-{: .notice-inverse}
 
 ## Store
 
