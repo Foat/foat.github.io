@@ -42,13 +42,13 @@ Take a look at the `Sender` implementation.
 {% highlight scala %}
 import akka.actor.{Actor, ActorRef, PoisonPill}
 
-class Sender(indexer: ActorRef, id: Int) extends Actor {
+class Sender(store: ActorRef, id: Int) extends Actor {
   var count = 0
 
   def receive: Receive = {
     case "start" =>
       println(s"$id sends $count to the store")
-      indexer ! s"$id => $count"
+      store ! s"$id => $count"
       count += 1
       if (count < 5)
         self ! "start"
@@ -100,19 +100,19 @@ import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._
 import scala.language.postfixOps
 
-object ExampleMain extends App {
+object Main extends App {
   val system = ActorSystem()
-  val indexer = system.actorOf(Props(new Indexer))
+  val store = system.actorOf(Props(new Store))
 
-  val sender1 = system.actorOf(Props(new Sender(indexer, 1)))
-  val sender2 = system.actorOf(Props(new Sender(indexer, 2)))
-  val sender3 = system.actorOf(Props(new Sender(indexer, 3)))
+  val sender1 = system.actorOf(Props(new Sender(store, 1)))
+  val sender2 = system.actorOf(Props(new Sender(store, 2)))
+  val sender3 = system.actorOf(Props(new Sender(store, 3)))
 
   sender1 ! "start"
   sender2 ! "start"
   sender3 ! "start"
 
-  system.scheduler.scheduleOnce(2 seconds)({indexer ! PoisonPill; system.terminate})
+  system.scheduler.scheduleOnce(2 seconds)({store ! PoisonPill; system.terminate})
 }
 {% endhighlight %}
 
