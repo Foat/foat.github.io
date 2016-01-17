@@ -46,7 +46,7 @@ The scraped information will be sent from the `Scraper` directly to the `Indexer
 
 You can assume that each Actor can represent a single machine, so to make the communication process better, we try to minimize the information that is sent from one Actor to another.
 
-The diagram of the project classes is represented as follows:
+The diagram of the project classes is as follows:
 
 <figure>
   <img src="/images/crawler.svg">
