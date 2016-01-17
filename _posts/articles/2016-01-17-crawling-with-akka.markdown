@@ -25,7 +25,7 @@ A web crawler is usually a part of a web search engine. And the most popular sea
 
 ### Assumptions
 
-The application we want to build is much smaller. To make it more interesting and resilient we will base our web crawler on several conditions:
+The application we want to build is much smaller. To make it more interesting we will base our web crawler on several conditions:
 
 * Web crawler must not spam websites, so each request to a single website should be delayed.
 * All operations must be non-blocking.
@@ -200,7 +200,7 @@ We create a scheduler that sends a `process` message to the Actor each second. W
 
 When we need to get a response from an Actor, we can use the [ask pattern]. It uses a `?` symbol. The `timeout` variable implicitly defines how much time we wait before the `ask` fails automatically. And if it does, the process recovers with the `ScrapFailure` message. Finally, we send the status back to the `Supervisor`.
 
-After all we get a non-blocking Actor, which processes a website without spamming it.
+After all, we get a non-blocking Actor, which processes a website without spamming it.
 
 ### Scraper
 
@@ -270,7 +270,7 @@ class Indexer(supervisor: ActorRef) extends Actor {
 
 If you run a program, you will see a bunch of messages that it produces. They just show the stage of a processing for a url.
 
-We have built a simple web crawler that can successfully crawl several websites. Moreover, we achieved that using [Akka], we did not use standard multithreading techniques, just messages and Actor instances.
+We have built a simple web crawler that can successfully crawl several websites. Moreover, we achieved that using [Akka], we did not use standard Java multithreading techniques, just messages and Actor instances.
 
 ### Source code
 The source code is available on [github](https://github.com/Foat/articles/tree/master/akka-web-crawler) under MIT License.
