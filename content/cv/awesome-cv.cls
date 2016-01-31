@@ -328,6 +328,9 @@
 % Usage: \quote{<quote>}
 \renewcommand*{\quote}[1]{\def\@quote{#1}}
 
+\newcommand*{\cvcite}[1]{{\addfontfeature{Color=awesome-link}\cite{#1}}}
+\newcommand*{\cvhref}[2]{\href{#1}{#2}}
+
 % Defines recipient's information (cover letter only)
 % Usage: \recipient{<recipient name>}{<recipient address>}
 % Usage: \recipientname{<recipient name>}
@@ -504,12 +507,12 @@
 
 % Define a paragraph for CV
 \newenvironment{cvparagraph}{%
-  \vspace{-3mm}
+  \vspace{\acvEntryTopSkip}
+  \vspace{-2mm}
   \paragraphstyle
-}{%
-  \vspace{1mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
 }
-
 
 % Define an environment for cventry
 \newenvironment{cventries}{%
@@ -530,6 +533,21 @@
       {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
       \entrypositionstyle{#1} & \entrydatestyle{#4} \\}
     \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}
+  \end{tabular*}%
+}
+
+\newcommand*{\cveducation}[6]{%
+  \vspace{\acvEntryTopSkip}
+  \vspace{-2.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+    \ifempty{#2#3}
+      {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+      {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
+      \entrypositionstyle{#1} & \entrydatestyle{#4} \\
+      \entrypositionstyle{#5} \\}
+    \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#6}}
   \end{tabular*}%
 }
 
@@ -591,6 +609,18 @@
 
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{%
+  %\vspace{-4.0mm}
+  \begin{justify}
+  \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
+    \setlength{\parskip}{0pt}
+    \renewcommand{\labelitemi}{\bullet}
+}{%
+  \end{itemize}
+  \end{justify}
+  %\vspace{-4.0mm}
+}
+
+\newenvironment{cvitems_up}{%
   \vspace{-4.0mm}
   \begin{justify}
   \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
@@ -599,9 +629,7 @@
 }{%
   \end{itemize}
   \end{justify}
-  \vspace{-4.0mm}
 }
-
 
 %-------------------------------------------------------------------------------
 %                Commands for elements of Cover Letter
