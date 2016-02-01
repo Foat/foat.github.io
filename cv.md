@@ -73,7 +73,7 @@ Related skills: C++, Java, OpenCV, Unit testing, PostgreSQL, Swing, Maven, Andro
 |
 -|-:
 **[Digital Zone]**        | *Kazan, Russia*
-Senior software developer | *July 2013 --- September 2014*
+Senior software developer | *April 2013 --- July 2013*
 
 * Managed a small team on a mobile version of [m.ulmart.ru](http://m.ulmart.ru) website.
 * Conducted technical interviews.
