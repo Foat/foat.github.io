@@ -19,76 +19,125 @@ Scala/Java software engineer
 
 ### [pdf version](/cv.pdf)
 
-## Interests
-Project management • Computer vision • Software engineering  
-Scala • E-commerce • Writing
+## Summary
+Software engineer with 4+ years of professional experience. Most recent experience includes Java (5+ years) and Scala (2+ years) development. Previous experience includes 2+ years of C++ development and 1+ year of project management. Notable accomplishments:
 
-## Professional experience
-* February 2015 - Present. Self-employed, Senior software engineer
-  - Java, Scala, C++ development.
-  - Computer vision R&D.
-  - Project management.
-  - Projects:
-    + A website development using Scala Play framework.
-    + Java throttling framework development from scratch.
-    + Robust and fast algorithm for multiply chalkboard detection.
-    + Real-time road lane recognition on C++.
-    + Book writing in fields of web development and computer vision: [1].
-    + Working on a financial project (Java).
-  - Related skills: Scala, Java, Unit testing, Mocking, TDD, BDD, JavaScript, C++, Spring Framework, Play framework, OpenCV, Build automation tools, Git.
-* November 2014 - January 2015. [CMP], Computer vision researcher
-  - Computer vision R&D.
-  - Project: Image rectification using vanishing lines and local affine frames.
-  - Related skills: C++, Matlab, Unix, Git.
-* July 2013 - September 2014. [RoadAR], Computer vision developer
-  - Computer vision R&D.
-  - Real-time traffic sign recognition on mobile phones.
-  - Project: [RoadARApp](https://play.google.com/store/apps/details?id=ru.roadar.android).
-  - Related skills: C++, Java, OpenCV, Unit testing, PostgreSQL, Swing, Maven, Android NDK, Boost library, CMake, Git.
-* April 2013 - July 2013. [Digital Zone], Senior software developer
-  - Project management and code review.
-  - Conducting technical interviews.
-  - Java frontend and backend development.
-  - Project: [ulmart.ru], ([link 1](http://dz.ru/portfolio/clients/ulmart/release_1-0/), [link 2](http://dz.ru/portfolio/clients/ulmart/release_2-0)).
-  - Related skills: Java, MySQL, Spring MVC, ApacheSolr, JavaScript, Application servers, Freemarker, Git, Maven.
-* September 2011 - April 2013. [Digital Zone], Software developer
-  - Java frontend and backend development.
-  - Projects:
-    + Social networks related websites.
-    + [ulmart.ru].
-  - Related skills: Java, GWT, Spring MVC, EJB, Apache Solr, JavaScript, Application servers, Freemarker, Version control, Build automation tools.
+* Designed and developed complex services for multiply Java projects. Always delivered fully documented clean and clear code.
+* Successfully managed a small team on a Java project.
+* Created three novel algorithms in the fields of computer vision and image processing.
+* Wrote several publications in the field of computer vision.
+
+Specialties: Java, Scala, C++ development.
+
+## Experience
+
+|
+-|-:
+**Self-employed**        | *Worldwide*
+Senior software engineer | *February 2015 --- PRESENT*
+
+Currently working remotely on a Java trading platform in a small firm. Other notable projects:
+
+* Writing software developments articles on a personal website: [foat.me](http://foat.me). It mostly includes Scala articles.
+* Wrote a book in the fields of computer vision and web development: [[1]](#publications).
+* Designed and implemented robust and fast algorithm for multiply chalkboard detection. It works in real-time and processes more than 40 HD images per second on a regular computer. The pixel precision is higher than 90%.
+* Created a Java throttling framework from scratch using Spring MVC and AspectJ.
+
+Related skills: Scala, Java, DevOps, Unit testing, Mocking, Aspects, TDD, BDD, JavaScript, C++, Spring Framework, Play framework, OpenCV, Build automation tools, Git.
+
+|
+-|-:
+**[Center for Machine Perception]** | *Prague, Czech Republic*
+Computer vision researcher          | *November 2014 --- January 2015*
+
+Worked as a researcher and developer on a project in the field of *Image rectification using vanishing lines and local affine frames*. Notable achievements:
+
+* Designed and developed a line-annotation tool on Matlab.
+* Created a test system for vanishing points and lines detection algorithms using C++ and Matlab.
+* Improved existing vanishing points detection algorithm.
+
+Related skills: C++, Matlab, Unix, Git.
+
+|
+-|-:
+**[RoadAR]**              | *Kazan, Russia*
+Computer vision developer | *July 2013 --- September 2014*
+
+Worked on a [RoadAR project](https://play.google.com/store/apps/details?id=ru.roadar.android). The application warns drivers about traffic-signs and other necessary information. Notable achievements:
+
+* Created a novel algorithm for traffic-sign detection and recognition, which works in real-time on mobile phones. The algorithm showed a superior performance compared to many state-of-the-art approaches. The algorithm is implemented on C++.
+* Designed a test system using Java for the traffic-sign detection algorithm.
+
+Related skills: C++, Java, OpenCV, Unit testing, PostgreSQL, Swing, Maven, Android NDK, Boost library, CMake, Git.
+
+|
+-|-:
+**[Digital Zone]**        | *Kazan, Russia*
+Senior software developer | *July 2013 --- September 2014*
+
+* Managed a small team on a mobile version of [m.ulmart.ru](http://m.ulmart.ru) website.
+* Conducted technical interviews.
+      
+Related skills: Java, MySQL, Spring MVC, Apache Solr, JavaScript, Application servers, Freemarker, Git, Maven.
+
+|
+-|-:
+**[Digital Zone]** | *Kazan, Russia*
+Software developer | *September 2011 --- April 2013*
+
+Developed complex services for several high-loaded websites. Mostly worked on [ulmart.ru](http://www.ulmart.ru) project. Notable achievements related to this website:
+          
+* Built a search platform based on Apache Solr.
+* Created an asynchronous catalog of goods using JavaScript and Spring MVC.
+* Designed and implemented a new database. This helped to remove several bottlenecks and improve the website performance.
+
+Related skills: Java, GWT, DevOps, Spring MVC, MySQL, EJB, Apache Solr, JavaScript, Application servers, Freemarker, Version control, Build automation tools.
 
 ## Education
-* 2012 - 2014. MSc in Computer Science  
-Kazan Federal University, Russia  
-advisor: Evgeny Stolov, Kazan Federal University  
-  - Computer vision, Image processing.
-  - Project: 3D scene reconstruction from a single view. Publication: [2].
-  - Related skills: Matlab, C++, TeX.
 
-* 2008 - 2012. BSc in Computer Science  
-Kazan Federal University, Russia  
-advisors: Evgeny Stolov, Kazan Federal University; Aleksandr Shlyannikov, Kazan Federal University
-  - Computer vision, Image processing, Web development.
-  - Projects: Handwritten digit recognition, E-library using GWT .
-  - Related skills: Java, JEE, GWT.
+|
+-|-:
+**Kazan Federal University** | *Kazan, Russia*
+MSc in Computer Science      | *2012 --- 2014*
+advisor: Evgeny Stolov       |
+
+Fields of interest: computer vision and image processing. Master thesis:
+      
+* 3D scene reconstruction from a single view. Resulted in a paper called *Surface Prediction for a Single Image of Urban Scenes*. It was presented in Singapore in 2014 on the [SUAS 2014](http://www.cvc.uab.es/adas/suas2014/) workshop. The article itself was published in 2015: [[2]](#publications).
+      
+Related skills: Matlab, C++, TeX.
+
+|
+-|-:
+**Kazan Federal University**                          | *Kazan, Russia*
+BSc in Computer Science                               | *2008 --- 2012*
+advisors: Evgeny Stolov; Aleksandr Shlyannikov       |
+  
+Fields of interest: computer vision and image processing, machine learning, web development. Projects: 
+
+* Handwritten digit recognition using Java.
+* E-library using GWT.
+
+Related skills: Java, JEE, GWT.
 
 ## It & programming skills
-Main languages: Java, Scala, C++.  
-Data analysis: Matlab.  
-Scripting languages: Shell script, JavaScript.  
-Markup languages: XML, JSON, HTML, CSS.  
-Query languages: SQL.  
-Application and web servers: JBoss, Tomcat, Jetty.  
-Revision control: Git, Subversion.  
-Build tools: Maven, Gradle, CMake, SBT.  
-Systems on administration level: OS X, Linux.  
-Other: Spring Framework, Play framework, OpenCV, Swing, Android NDK, MySQL, PostgreSQL, TDD, BDD.  
-Digital typesetting: TEX, LATEX.
+
+**Main languages**                  | Java, Scala, C++
+**Data analysis**                   | Matlab
+**Scripting languages**             | Shell script, JavaScript
+**Markup languages**                | XML, JSON, HTML, CSS
+**Query languages**                 | SQL
+**Application and web servers**     | JBoss, Tomcat, Jetty
+**Revision control**                | Git, Subversion
+**Build tools**                     | Maven, Gradle, CMake, SBT
+**Systems on administration level** | OS X, Linux
+**Other**                           | Spring Framework, Play framework, OpenCV, Swing, Android NDK, MySQL, PostgreSQL, TDD, BDD
+**Digital typesetting**             | TeX, LaTeX
 
 ## Languages
-Russian (native speaker),  
-English (professional proficiency).
+
+**Russian** | native speaker
+**English** | professional proficiency
 
 ## Publications
 [1] F. Akhmadeev, Computer Vision for the Web. Packt Publishing, 2015. [[link]](https://www.packtpub.com/web-development/computer-vision-web)
@@ -100,7 +149,6 @@ English (professional proficiency).
 [Github]: https://github.com/foat
 [LinkedIn]: https://linkedin.com/in/akhmadeevfoat
 
-[CMP]: http://cmp.felk.cvut.cz
+[Center for Machine Perception]: http://cmp.felk.cvut.cz
 [RoadAR]: http://roadar.ru
 [Digital Zone]: http://dz.ru
-[ulmart.ru]: http://www.ulmart.ru
