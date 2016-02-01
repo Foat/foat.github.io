@@ -43,7 +43,7 @@ Currently working remotely on a Java trading platform in a small firm. Other not
 * Designed and implemented robust and fast algorithm for multiply chalkboard detection. It works in real-time and processes more than 40 HD images per second on a regular computer. The pixel precision is higher than 90%.
 * Created a Java throttling framework from scratch using Spring MVC and AspectJ.
 
-Related skills: Scala, Java, DevOps, Unit testing, Mocking, Aspects, TDD, BDD, JavaScript, C++, Spring Framework, Play framework, OpenCV, Build automation tools, Git.
+Related skills: Scala, Java, DevOps, Unit testing, Mocking, Aspects, TDD, BDD, JavaScript, C++, Spring Framework, Play framework, OpenCV, Build automation tools, Git, Computer vision, Image processing.
 
 |
 -|-:
@@ -56,7 +56,7 @@ Worked as a researcher and developer on a project in the field of *Image rectifi
 * Created a test system for vanishing points and lines detection algorithms using C++ and Matlab.
 * Improved existing vanishing points detection algorithm.
 
-Related skills: C++, Matlab, Unix, Git.
+Related skills: C++, Matlab, Unix, Git, Computer vision, Image processing.
 
 |
 -|-:
@@ -68,7 +68,7 @@ Worked on a [RoadAR project](https://play.google.com/store/apps/details?id=ru.ro
 * Created a novel algorithm for traffic-sign detection and recognition, which works in real-time on mobile phones. The algorithm showed a superior performance compared to many state-of-the-art approaches. The algorithm is implemented on C++.
 * Designed a test system using Java for the traffic-sign detection algorithm.
 
-Related skills: C++, Java, OpenCV, Unit testing, PostgreSQL, Swing, Maven, Android NDK, Boost library, CMake, Git.
+Related skills: C++, Java, OpenCV, Unit testing, PostgreSQL, Swing, Maven, Android NDK, Boost library, CMake, Git, Computer vision, Image processing, Machine learning.
 
 |
 -|-:
@@ -105,7 +105,7 @@ Fields of interest: computer vision and image processing. Master thesis:
       
 * 3D scene reconstruction from a single view. Resulted in a paper called *Surface Prediction for a Single Image of Urban Scenes*. It was presented in Singapore in 2014 on the [SUAS 2014](http://www.cvc.uab.es/adas/suas2014/) workshop. The article itself was published in 2015: [[2]](#publications).
       
-Related skills: Matlab, C++, TeX.
+Related skills: Matlab, C++, TeX, Computer vision, Image processing.
 
 |
 -|-:
@@ -118,7 +118,7 @@ Fields of interest: computer vision and image processing, machine learning, web 
 * Handwritten digit recognition using Java.
 * E-library using GWT.
 
-Related skills: Java, JEE, GWT.
+Related skills: Java, JEE, GWT, Computer vision, Image processing, Machine learning.
 
 ## It & programming skills
 
