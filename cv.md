@@ -22,7 +22,7 @@ Scala/Java software engineer
 ## Summary
 Software engineer with 4+ years of professional experience. Most recent experience includes Java (5+ years) and Scala (2+ years) development. Previous experience includes 2+ years of C++ development and 1+ year of project management. Notable accomplishments:
 
-* Designed and developed complex services for multiply Java projects. Always delivered fully documented clean and clear code.
+* Designed and developed complex services for various Java projects. Always delivered fully documented clean and clear code.
 * Successfully managed a small team on a Java project.
 * Created three novel algorithms in the fields of computer vision and image processing.
 * Wrote several publications in the field of computer vision.
