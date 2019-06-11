@@ -14,15 +14,14 @@ ads: false
 date: 2015-05-12T22:01:03+03:00
 ---
 
-Scala/Java software engineer  
+Senior Java developer  
 [E-mail], [Github], [LinkedIn]
 
-### [pdf version](/cv.pdf)
-
 ## Summary
-Software engineer with 4+ years of professional experience. Most recent experience includes Java (5+ years) and Scala (2+ years) development. Previous experience includes 2+ years of C++ development and 1+ year of project management. Notable accomplishments:
+Software engineer with 8+ years of professional experience. Most recent experience includes Java (9+ years) and Scala (7+ years) development. Previous experience includes 3+ years of C++ development and 2+ year of project management. Notable accomplishments:
 
 * Designed and developed complex services for various Java projects. Always delivered fully documented clean and clear code.
+* Contributed to a complex multi-threaded trading system.
 * Successfully managed a small team on a Java project.
 * Created three novel algorithms in the fields of computer vision and image processing.
 * Wrote several publications in the field of computer vision.
@@ -36,9 +35,10 @@ Specialties: Java, Scala, C++ development.
 **Self-employed**        | *Worldwide*
 Senior software engineer | *February 2015 --- PRESENT*
 
-Currently working remotely on a Java trading platform in a small firm. Other notable projects:
+Working on several projects including my own. Other notable projects:
 
-* Writing software developments articles on a personal website: [foat.me](http://foat.me). It mostly includes Scala articles.
+* Wrote some software developments articles on a personal website: [foat.me](http://foat.me). It mostly includes Scala articles.
+* Contributed to a complex multi-threaded trading system. 
 * Wrote a book in the fields of computer vision and web development: [[1]](#publications).
 * Designed and implemented robust and fast algorithm for multiply chalkboard detection. It works in real-time and processes more than 40 HD images per second on a regular computer. The pixel precision is higher than 90%.
 * Created a Java throttling framework from scratch using Spring MVC and AspectJ.
@@ -123,7 +123,7 @@ Related skills: Java, JEE, GWT, Computer vision, Image processing, Machine learn
 ## It & programming skills
 
 **Main languages**                  | Java, Scala, C++
-**Data analysis**                   | Matlab
+**Data analysis**                   | Matlab, R
 **Scripting languages**             | Shell script, JavaScript
 **Markup languages**                | XML, JSON, HTML, CSS
 **Query languages**                 | SQL
