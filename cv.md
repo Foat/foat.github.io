@@ -14,7 +14,9 @@ ads: false
 date: 2015-05-12T22:01:03+03:00
 ---
 
-Senior Java developer  
+### [pdf version](/cv.pdf)
+
+Senior Software Engineer
 [E-mail], [Github], [LinkedIn]
 
 ## Summary
@@ -35,15 +37,17 @@ Specialties: Java, Scala, C++ development.
 **Self-employed**        | *Worldwide*
 Senior software engineer | *February 2015 --- PRESENT*
 
-Working on several projects including my own. Other notable projects:
+Working on several projects including my own. Notable projects:
 
 * Wrote some software developments articles on a personal website: [foat.me](http://foat.me). It mostly includes Scala articles.
 * Contributed to a complex multi-threaded trading system. 
+* Contributed to an open-source crypto currency library [xchange-stream](https://github.com/bitrich-info/xchange-stream).
+* Designed and wrote a complex data mining system for a financial project.
 * Wrote a book in the fields of computer vision and web development: [[1]](#publications).
 * Designed and implemented robust and fast algorithm for multiply chalkboard detection. It works in real-time and processes more than 40 HD images per second on a regular computer. The pixel precision is higher than 90%.
 * Created a Java throttling framework from scratch using Spring MVC and AspectJ.
 
-Related skills: Scala, Java, DevOps, Unit testing, Mocking, Aspects, TDD, BDD, JavaScript, C++, Spring Framework, Play framework, OpenCV, Build automation tools, Git, Computer vision, Image processing.
+Related skills: Scala, Java, R, DevOps, Unit testing, Mocking, Aspects, TDD, BDD, JavaScript, C++, Spring Framework, Play framework, OpenCV, Build automation tools, Git, Computer vision, Image processing, Apache Solr, PostgreSql.
 
 |
 -|-:
