@@ -20,34 +20,67 @@ Senior Software Engineer
 [E-mail], [Github], [LinkedIn]
 
 ## Summary
-Software engineer with 8+ years of professional experience. Most recent experience includes Java (9+ years) and Scala (7+ years) development. Previous experience includes 3+ years of C++ development and 2+ year of project management. Notable accomplishments:
+Software engineer with 9+ years of professional experience. Most recent experience includes Java (10+ years), Scala (7+ years) and Kotlin (1+ years) development. Previous experience includes 3+ years of C++ development and 2+ years of project management. Notable accomplishments:
 
 * Designed and developed complex services for various Java projects. Always delivered fully documented clean and clear code.
-* Contributed to a complex multi-threaded trading system.
+* Designed and developed several search systems using Apache Solr and Elasticsearch.
+* Wrote a data mining system for own financial project.
 * Successfully managed a small team on a Java project.
 * Created three novel algorithms in the fields of computer vision and image processing.
 * Wrote several publications in the field of computer vision.
 
-Specialties: Java, Scala, C++ development.
+Specialties: Java, Kotlin, Scala, C++ development.
 
 ## Experience
 
 |
 -|-:
-**Self-employed**        | *Worldwide*
-Senior software engineer | *February 2015 --- PRESENT*
+**[Lyra Solar]**         | *Remote*
+Senior software engineer | *July 2019 --- PRESENT*
 
 Working on several projects including my own. Notable projects:
 
+* Built elasticsearch system for searching equipments for solar design.
+* Designed and developed an algorithm for maximizing the roof area available for solar panels.
+* Various contributions to help building permit packages.
+
+Related skills: Java, Unit testing, Mocking, Spring Boot, Git, MySql, Elasticsearch, OpenAPI, Postman ITs.
+
+|
+-|-:
+**[foat.me]**            | *Worldwide*
+Senior software engineer | *February 2015 --- PRESENT*
+
+Working on several own projects:
+
+* Currently working on an investment portfolio management tool with backtesting features.
 * Wrote some software developments articles on a personal website: [foat.me](http://foat.me). It mostly includes Scala articles.
+* Designed and wrote a complex data mining system for a financial project.
+
+Related skills: Scala, Java, R, Python, Kotlin, DevOps, Unit testing, JavaScript, C++, Spring Framework, Play framework, Build automation tools, Git, Apache Solr, Sql.
+
+|
+-|-:
+**[Kapital Trading]**    | *Remote*
+Senior software engineer | *August 2015 --- June 2019*
+
 * Contributed to a complex multi-threaded trading system. 
 * Contributed to an open-source crypto currency library [xchange-stream](https://github.com/bitrich-info/xchange-stream).
-* Designed and wrote a complex data mining system for a financial project.
+
+Related skills: Java, DevOps, Unit testing, Mocking, TDD, BDD, Build automation tools, MySql.
+
+|
+-|-:
+**Self-employed**        | *Remote*
+Senior software engineer | *February 2015 --- August 2015*
+
+Worked on several projects, listed some notable ones:
+
 * Wrote a book in the fields of computer vision and web development: [[1]](#publications).
 * Designed and implemented robust and fast algorithm for multiply chalkboard detection. It works in real-time and processes more than 40 HD images per second on a regular computer. The pixel precision is higher than 90%.
 * Created a Java throttling framework from scratch using Spring MVC and AspectJ.
 
-Related skills: Scala, Java, R, DevOps, Unit testing, Mocking, Aspects, TDD, BDD, JavaScript, C++, Spring Framework, Play framework, OpenCV, Build automation tools, Git, Computer vision, Image processing, Apache Solr, PostgreSql.
+Related skills: Java, DevOps, Unit testing, Mocking, Aspects, TDD, BDD, JavaScript, C++, Spring Framework, OpenCV, Build automation tools, Git, Computer vision, Image processing.
 
 |
 -|-:
@@ -126,8 +159,8 @@ Related skills: Java, JEE, GWT, Computer vision, Image processing, Machine learn
 
 ## It & programming skills
 
-**Main languages**                  | Java, Scala, C++
-**Data analysis**                   | Matlab, R
+**Main languages**                  | Java, Kotlin, Scala, C++
+**Data analysis**                   | Matlab, R, Python
 **Scripting languages**             | Shell script, JavaScript
 **Markup languages**                | XML, JSON, HTML, CSS
 **Query languages**                 | SQL
@@ -153,6 +186,9 @@ Related skills: Java, JEE, GWT, Computer vision, Image processing, Machine learn
 [Github]: https://github.com/foat
 [LinkedIn]: https://linkedin.com/in/akhmadeevfoat
 
+[foat.me]: http://foat.me
+[Lyra Solar]: https://lyrasolar.com
+[Kapital Trading]: https://www.kapitaltrading.com
 [Center for Machine Perception]: http://cmp.felk.cvut.cz
 [RoadAR]: http://roadar.ru
 [Digital Zone]: http://dz.ru
