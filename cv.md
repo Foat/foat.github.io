@@ -38,8 +38,6 @@ Specialties: Java, Kotlin, Scala, C++ development.
 **[Lyra Solar]**         | *Remote*
 Senior software engineer | *July 2019 --- PRESENT*
 
-Working on several projects including my own. Notable projects:
-
 * Built elasticsearch system for searching equipments for solar design.
 * Designed and developed an algorithm for maximizing the roof area available for solar panels.
 * Various contributions to help building permit packages.
