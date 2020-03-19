@@ -112,7 +112,7 @@ Related skills: C++, Java, OpenCV, Unit testing, PostgreSQL, Swing, Maven, Andro
 **[Digital Zone]**        | *Kazan, Russia*
 Senior software developer | *April 2013 --- July 2013*
 
-* Managed a small team on a mobile version of [m.ulmart.ru](http://m.ulmart.ru) website.
+* Managed a small team on a mobile version of [ulmart.ru](https://ulmart.ru) website.
 * Conducted technical interviews.
       
 Related skills: Java, MySQL, Spring MVC, Apache Solr, JavaScript, Application servers, Freemarker, Git, Maven.
@@ -122,7 +122,7 @@ Related skills: Java, MySQL, Spring MVC, Apache Solr, JavaScript, Application se
 **[Digital Zone]** | *Kazan, Russia*
 Software developer | *September 2011 --- April 2013*
 
-Developed complex services for several high-loaded websites. Mostly worked on [ulmart.ru](http://www.ulmart.ru) project. Notable achievements related to this website:
+Developed complex services for several high-loaded websites. Mostly worked on [ulmart.ru](https://www.ulmart.ru) project. Notable achievements related to this website:
           
 * Built a search platform based on Apache Solr.
 * Created an asynchronous catalog of goods using JavaScript and Spring MVC.
