@@ -16,7 +16,7 @@ date: 2015-05-12T22:01:03+03:00
 
 ### [pdf version](/cv.pdf)
 
-Senior Software Engineer
+Software Developer
 [E-mail], [Github], [LinkedIn]
 
 ## Summary
@@ -143,8 +143,8 @@ Related skills: Java, JEE, GWT, Computer vision, Image processing, Machine learn
 
 ## It & programming skills
 
-**Main languages**                  | Java, Kotlin, Scala, C++
-**Data analysis**                   | Matlab, R, Python
+**Main languages**                  | Java, Kotlin
+**Data analysis**                   | Python, Matlab, R
 **Scripting languages**             | Shell script, JavaScript
 **Markup languages**                | XML, JSON, HTML, CSS
 **Query languages**                 | SQL
@@ -152,7 +152,7 @@ Related skills: Java, JEE, GWT, Computer vision, Image processing, Machine learn
 **Revision control**                | Git, Subversion
 **Build tools**                     | Maven, Gradle, CMake, SBT
 **Systems on administration level** | OS X, Linux
-**Other**                           | Spring Framework, Play framework, OpenCV, Swing, Android NDK, MySQL, PostgreSQL, TDD, BDD
+**Other**                           | Scala, C++, Spring Framework, Play framework, OpenCV, Swing, Android NDK, MySQL, PostgreSQL, TDD, BDD
 **Digital typesetting**             | TeX, LaTeX
 
 ## Languages
