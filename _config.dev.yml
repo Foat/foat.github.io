@@ -22,10 +22,7 @@ gems:
 # Social icons
 github_username: foat
 stackoverflow_id:
-twitter_username: foat_akhmadeev
-google_plus_id: 107621933198216749305
 linkedin_username: akhmadeevfoat
-angellist_username: foat-akhmadeev
 
 # Site owner
 owner:
@@ -37,7 +34,7 @@ owner:
     ad-client:
     ad-slot:
     analytics:
-  bio: "Software engineer and researcher."
+  bio: "Software developer."
   avatar: bio-photo.jpg
   disqus-shortname: "foat-me"
 

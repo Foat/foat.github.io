@@ -20,42 +20,28 @@ Senior Software Engineer
 [E-mail], [Github], [LinkedIn]
 
 ## Summary
-Software engineer with 9+ years of professional experience. Most recent experience includes Java (10+ years), Scala (7+ years) and Kotlin (1+ years) development. Previous experience includes 3+ years of C++ development and 2+ years of project management. Notable accomplishments:
-
-* Designed and developed complex services for various Java projects. Always delivered fully documented clean and clear code.
-* Designed and developed several search systems using Apache Solr and Elasticsearch.
-* Wrote a data mining system for own financial project.
-* Successfully managed a small team on a Java project.
-* Created three novel algorithms in the fields of computer vision and image processing.
-* Wrote several publications in the field of computer vision.
-
-Specialties: Java, Kotlin, Scala, C++ development.
+Software developer with 10+ years of professional experience. Primary focus is on algorithms and project architecture. Main languages are Java, Kotlin and Python.
 
 ## Experience
 
 |
 -|-:
+F. Trading | *Worldwide*
+Founder    | *September 2020 --- PRESENT*
+
+A proprietary trading lab.
+
+
+|
+-|-:
 **[Lyra Solar]**         | *Remote*
-Senior software engineer | *July 2019 --- PRESENT*
+Senior software engineer | *July 2019 --- October 2020*
 
 * Built elasticsearch system for searching equipments for solar design.
 * Designed and developed an algorithm for maximizing the roof area available for solar panels.
 * Various contributions to help building permit packages.
 
 Related skills: Java, Unit testing, Mocking, Spring Boot, Git, MySql, Elasticsearch, OpenAPI, Postman ITs.
-
-|
--|-:
-**[foat.me]**            | *Worldwide*
-Senior software engineer | *February 2015 --- PRESENT*
-
-Working on several own projects:
-
-* Currently working on an investment portfolio management tool with backtesting features.
-* Wrote some software developments articles on a personal website: [foat.me](http://foat.me). It mostly includes Scala articles.
-* Designed and wrote a complex data mining system for a financial project.
-
-Related skills: Scala, Java, R, Python, Kotlin, DevOps, Unit testing, JavaScript, C++, Spring Framework, Play framework, Build automation tools, Git, Apache Solr, Sql.
 
 |
 -|-:
@@ -69,7 +55,7 @@ Related skills: Java, DevOps, Unit testing, Mocking, TDD, BDD, Build automation 
 
 |
 -|-:
-**Self-employed**        | *Remote*
+**[foat.me]**            | *Remote*
 Senior software engineer | *February 2015 --- August 2015*
 
 Worked on several projects, listed some notable ones:

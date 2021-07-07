@@ -32,12 +32,7 @@ owner:
   name: Foat Akhmadeev
   email: foat.akhmadeev@gmail.com
   web: https://foat.me
-  twitter: foat_akhmadeev
-  google:
-    ad-client:
-    ad-slot:
-    analytics: UA-62776233-1
-  bio: "Software engineer and researcher."
+  bio: "Software developer."
   avatar: bio-photo.jpg
   disqus-shortname: "foat-me"
 
