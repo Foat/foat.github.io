@@ -55,7 +55,7 @@ Related skills: Java, DevOps, Unit testing, Mocking, TDD, BDD, Build automation 
 
 |
 -|-:
-**[foat.me]**            | *Remote*
+**[foat.tech]**            | *Remote*
 Senior software engineer | *February 2015 --- August 2015*
 
 Worked on several projects, listed some notable ones:
@@ -166,11 +166,11 @@ Related skills: Java, JEE, GWT, Computer vision, Image processing, Machine learn
 [2] F. Akhmadeev, "Surface prediction for a single image of urban scenes." [[link]](http://dx.doi.org/10.1007/978-3-319-16628-5_27), [[poster]](/content/surface-prediction/poster.pdf)  
 [Workshop on Scene Understanding for Autonomous Systems](http://www.cvc.uab.es/adas/suas2014/) (ACCV Workshops), [ACCV 2014](http://www.accv2014.org).
 
-[E-mail]: mailto:foat.akhmadeev@gmail.com
+[E-mail]: mailto:info@foat.tech
 [Github]: https://github.com/foat
 [LinkedIn]: https://linkedin.com/in/akhmadeevfoat
 
-[foat.me]: http://foat.me
+[foat.tech]: http://foat.tech
 [Lyra Solar]: https://lyrasolar.com
 [Kapital Trading]: https://www.kapitaltrading.com
 [Center for Machine Perception]: http://cmp.felk.cvut.cz

@@ -5,7 +5,7 @@ description: "Software development and research using Java and Scala."
 logo: logo.jpg
 teaser: teaser.jpg
 locale: en_US
-url: https://foat.me
+url: http://foat.tech
 
 # Jekyll configuration
 
@@ -30,8 +30,8 @@ angellist_username:
 # Site owner
 owner:
   name: Foat Akhmadeev
-  email: foat.akhmadeev@gmail.com
-  web: https://foat.me
+  email: info@foat.tech
+  web: http://foat.tech
   bio: "Software developer."
   avatar: bio-photo.jpg
   disqus-shortname: "foat-me"

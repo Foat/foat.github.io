@@ -76,7 +76,7 @@ object StartingPoint extends App {
   val system = ActorSystem()
   val supervisor = system.actorOf(Props(new Supervisor(system)))
 
-  supervisor ! Start("https://foat.me")
+  supervisor ! Start("http://foat.tech")
 
   Await.result(system.whenTerminated, 10 minutes)
 
